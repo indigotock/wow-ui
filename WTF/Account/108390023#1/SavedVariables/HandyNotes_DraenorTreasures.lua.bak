@@ -1,0 +1,11 @@
+
+DraenorTreasuresDB = {
+	["profileKeys"] = {
+		["Zerabitwo - Stormscale"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["icon_alpha"] = 0.75,
+		},
+	},
+}

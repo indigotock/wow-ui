@@ -1,0 +1,12 @@
+
+DialogKeyDB = {
+	["profileKeys"] = {
+		["Redsauce - Aerie Peak"] = "Default",
+		["Minidrin - Aerie Peak"] = "Default",
+		["Thedrin - Aerie Peak"] = "Default",
+		["Demonpunter - Aerie Peak"] = "Default",
+	},
+	["global"] = {
+		["shownBindWarning"] = true,
+	},
+}

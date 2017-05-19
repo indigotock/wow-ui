@@ -1,0 +1,29 @@
+
+AuroraConfig = {
+	["customColour"] = {
+		["b"] = 0.247058823529412,
+		["g"] = 0,
+		["r"] = 1,
+	},
+	["chatBubbles"] = true,
+	["acknowledgedSplashScreen"] = true,
+	["tooltips"] = false,
+	["alpha"] = 0.900000035762787,
+	["buttonGradientColour"] = {
+		0.3, -- [1]
+		0.3, -- [2]
+		0.3, -- [3]
+		0.3, -- [4]
+	},
+	["loot"] = true,
+	["useButtonGradientColour"] = false,
+	["useCustomColour"] = true,
+	["enableFont"] = false,
+	["buttonSolidColour"] = {
+		0.2, -- [1]
+		0.2, -- [2]
+		0.2, -- [3]
+		1, -- [4]
+	},
+	["bags"] = false,
+}

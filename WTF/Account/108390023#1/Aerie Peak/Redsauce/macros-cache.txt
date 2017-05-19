@@ -1,0 +1,9 @@
+VER 3 0100000000000002 "Assassination" "236270"
+/run SetSpecialization(1)
+END
+VER 3 0100000000000001 "Outlaw" "135340"
+/run SetSpecialization(2)
+END
+VER 3 0100000000000003 "Subtlety" "132320"
+/run SetSpecialization(3)
+END

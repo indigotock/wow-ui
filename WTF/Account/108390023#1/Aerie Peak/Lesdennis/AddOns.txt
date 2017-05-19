@@ -1,0 +1,9 @@
+DBM-Brawlers: enabled
+DBM-DMF: enabled
+DBM-EmeraldNightmare: enabled
+DBM-BrokenIsles: enabled
+DBM-Party-Legion: enabled
+DBM-Nighthold: enabled
+DBM-TombofSargeras: enabled
+DBM-TrialofValor: enabled
+DBM-WorldEvents: enabled

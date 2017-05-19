@@ -1,0 +1,26 @@
+------------------------------------------------------------------------
+r46 | lockslap | 2014-10-19 20:59:50 +0000 (Sun, 19 Oct 2014) | 1 line
+Changed paths:
+   A /tags/2.22 (from /trunk:45)
+
+Tagged as version 2.22.
+------------------------------------------------------------------------
+r45 | lockslap | 2014-10-19 20:59:33 +0000 (Sun, 19 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/ElvUI_ImprovedSpecSwitch.toc
+
+Removed LibElvUIPlugin from libraries.
+------------------------------------------------------------------------
+r43 | lockslap | 2014-10-19 20:56:39 +0000 (Sun, 19 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/ElvUI_ImprovedSpecSwitch.toc
+
+Updated TOC to correct version.
+------------------------------------------------------------------------
+r41 | lockslap | 2014-10-15 16:26:41 +0000 (Wed, 15 Oct 2014) | 1 line
+Changed paths:
+   M /trunk/ElvUI_ImprovedSpecSwitch.toc
+
+Updated TOC to patch 6.0.
+------------------------------------------------------------------------

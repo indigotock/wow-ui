@@ -1,0 +1,9 @@
+VER 3 0000000000000002 "ads" "INV_SWORD_04"
+/tar teyn
+END
+VER 3 0000000000000001 "Midnight" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/script PlaySoundFile("Sound\\Creature\\AttumenTheHuntsman\\AttumenMounts01.ogg");
+/y Come, Midnight, let's disperse this petty rabble!
+/use Midnight
+END

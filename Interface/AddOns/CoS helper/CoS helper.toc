@@ -1,0 +1,5 @@
+##Interface: 70200
+##Title:CoS helper
+##Version: 1.3
+##Notes:Adds Tooltip line and notifies party for usable perks in the Court of Stars dungeon
+CoS helper.lua

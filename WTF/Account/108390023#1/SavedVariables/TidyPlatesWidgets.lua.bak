@@ -1,0 +1,22 @@
+
+TidyPlatesWidgetData = {
+	["UnitLastSeen"] = {
+		["Training Dummy"] = 3868,
+		["Orgrimmar Grunt"] = 3868,
+		["Zerabitwo"] = 3868,
+		["Orgrimmar Wind Rider"] = 3868,
+		["Lejundairy"] = 3868,
+		["Darkspear Headhunter"] = 3868,
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Lejundairy"] = "Fever",
+	},
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+		["Zerabitwo"] = "SHAMAN",
+		["Lejundairy"] = "DRUID",
+	},
+}

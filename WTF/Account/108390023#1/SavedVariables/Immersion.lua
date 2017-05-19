@@ -1,0 +1,20 @@
+
+ImmersionSetup = {
+	["titleoffset"] = 500,
+	["titlescale"] = 1,
+	["disableprogression"] = false,
+	["inspect"] = "SHIFT",
+	["hideui"] = false,
+	["boxoffsetX"] = 0,
+	["accept"] = "SPACE",
+	["boxscale"] = 1,
+	["boxoffsetY"] = 600,
+	["flipshortcuts"] = false,
+	["disableflyin"] = true,
+	["delaydivisor"] = 15,
+	["boxpoint"] = "Bottom",
+	["scale"] = 1,
+	["titleoffsetY"] = 0,
+	["strata"] = "MEDIUM",
+	["reset"] = "BACKSPACE",
+}

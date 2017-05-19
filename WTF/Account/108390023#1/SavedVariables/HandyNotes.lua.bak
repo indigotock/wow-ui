@@ -1,0 +1,21 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Zerabitwo - Stormscale"] = "Zerabitwo - Stormscale",
+	},
+	["profiles"] = {
+		["Zerabitwo - Stormscale"] = {
+			["icon_alpha"] = 0.75,
+			["icon_alpha_minimap"] = 0,
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Zerabitwo - Stormscale"] = "Zerabitwo - Stormscale",
+	},
+	["profiles"] = {
+		["Zerabitwo - Stormscale"] = {
+		},
+	},
+}

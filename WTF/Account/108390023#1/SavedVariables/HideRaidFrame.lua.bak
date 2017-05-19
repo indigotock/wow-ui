@@ -1,0 +1,6 @@
+
+HideRaidFrameDB4 = {
+	["RaidFrames"] = false,
+	["version"] = "1.7",
+	["build"] = "Release",
+}

@@ -1,0 +1,55 @@
+VER 3 0100000000000033 "Flash Heal MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][@player] Flash Heal
+END
+VER 3 0100000000000001 "Heal Mouseover" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][@player] Heal
+END
+VER 3 0100000000000032 "HW: Serenity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][@player] Holy Word: Serenity
+END
+VER 3 010000000000002D "Levitate MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][exists,help,nodead][] Levitate
+END
+VER 3 0100000000000002 "Plea" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][] Plea
+END
+VER 3 0100000000000005 "PoH MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][@player] Prayer of Healing
+END
+VER 3 0100000000000004 "PoM MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][@player] Prayer of Mending
+END
+VER 3 0100000000000011 "Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][exists,help,nodead][@player] Purify
+END
+VER 3 0100000000000008 "PW: S MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][exists,help,nodead][] Power Word: Shield
+END
+VER 3 010000000000002C "Renew MO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player,mod:alt][@mouseover,help,nodead][exists,help,nodead][@player] Renew
+END
+VER 3 010000000000002B "Shadowfiend" "INV_MISC_QUESTIONMARK"
+#showtooltip [@mouseover,harm,nodead][@mouseovertarget,harm,nodead][@target,harm,nodead][@targettarget,harm,nodead] Shadowfiend
+END
+VER 3 0100000000000031 "Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm] Silence; Silence
+END
+VER 3 010000000000002F "SW: P" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm] [] Shadow Word: Pain
+END
+VER 3 0100000000000030 "VT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm] Vampiric Touch; Vampiric Touch
+END
