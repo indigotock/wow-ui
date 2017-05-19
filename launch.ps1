@@ -15,5 +15,5 @@ Else
 {
     # Need to add Windows command
     # & ./wow.exe ?
-    # Start-Process -FilePath "./wow.exe" ?
+    Start-Process -FilePath "./wow.exe" ?
 }
