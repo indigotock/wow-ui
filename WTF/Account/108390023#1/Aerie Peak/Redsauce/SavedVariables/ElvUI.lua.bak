@@ -1,9 +1,0 @@
-
-ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/logout", -- [1]
-		"/exit", -- [2]
-	},
-	["ChatLog"] = {
-	},
-}
