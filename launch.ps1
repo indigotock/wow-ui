@@ -1,7 +1,7 @@
 $OS = If ([environment]::OSVersion.Platform -eq 'Unix') {"OS X"} Else {"Windows"}
 echo $OS
 echo "Committing"
-git commit -a -m "Get-Date"
+git commit -a -m "$(Get-Date)"
 echo "Status:"
 git status
 echo "Pulling"
