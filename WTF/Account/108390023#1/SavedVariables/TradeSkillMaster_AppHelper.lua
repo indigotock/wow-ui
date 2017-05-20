@@ -60,8 +60,8 @@ TradeSkillMaster_AppHelperDB = {
 	},
 	["wowToken"] = {
 		["EU"] = {
-			["data"] = 199881,
 			["key"] = 11730834,
+			["data"] = 199881,
 			["updateTime"] = 1494950861,
 		},
 	},

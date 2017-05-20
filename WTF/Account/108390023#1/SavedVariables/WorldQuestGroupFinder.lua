@@ -4,7 +4,7 @@ WorldQuestGroupFinderConfig = {
 	["askToLeave"] = true,
 	["autoAcceptInvites"] = false,
 	["autoLeaveGroup"] = true,
-	["avoidPVP"] = true,
-	["askZoningAuto"] = true,
 	["regularQuests"] = true,
+	["askZoningAuto"] = true,
+	["avoidPVP"] = true,
 }

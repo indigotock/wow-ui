@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Attumen the Huntsman",
+		}, -- [1]
+		{
+			["boss"] = "Attumen the Huntsman",
+		}, -- [2]
+		{
+			["boss"] = "Attumen the Huntsman",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[183633] = {
 			["school"] = 1,
@@ -270,15 +281,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Virtue",
 		},
-		[227817] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[188494] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Maiden of Virtue",
 		},
 		[240061] = {
 			["school"] = 8,
@@ -288,14 +297,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Succulent Lasher",
 		},
-		[227638] = {
-			["school"] = 1,
+		[209858] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Attumen the Huntsman",
+			["source"] = "Luminore",
 		},
 		[200723] = {
 			["school"] = 8,
@@ -339,11 +348,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Coggleston",
 		},
-		[227736] = {
+		[227742] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Moroes",
 		},
@@ -395,19 +406,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Virtue",
 		},
-		[227363] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Midnight",
-		},
-		[227415] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
 		[240063] = {
 			["school"] = 8,
 			["token"] = {
@@ -415,19 +413,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Succulent Lasher",
 		},
-		[227737] = {
-			["school"] = 1,
+		[227542] = {
+			["school"] = 2,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Moroes",
+			["source"] = "Lady Catriona Von'Indi",
 		},
-		[236527] = {
+		[227363] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Midnight",
+		},
+		[228019] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mrs. Cauldrons",
+		},
+		[201983] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Agronox",
+			["source"] = "Emberhusk Dominator",
 		},
 		[193375] = {
 			["school"] = 1,
@@ -436,16 +455,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ularogg Cragshaper",
-		},
-		[228729] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Mrs. Cauldrons",
 		},
 		[200154] = {
 			["school"] = 1,
@@ -465,6 +474,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Babblet",
+		},
+		[228729] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Mrs. Cauldrons",
 		},
 		[200551] = {
 			["school"] = 8,
@@ -493,13 +512,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Agronox",
 		},
-		[188169] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Rokmora",
-		},
 		[193376] = {
 			["school"] = 1,
 			["token"] = {
@@ -507,6 +519,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Ularogg Cragshaper",
+		},
+		[188169] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rokmora",
 		},
 		[227809] = {
 			["school"] = 2,
@@ -517,14 +536,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Virtue",
 		},
-		[228011] = {
-			["school"] = 16,
+		[232135] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Mrs. Cauldrons",
+			["source"] = "Silver Forks",
 		},
 		[210150] = {
 			["school"] = 8,
@@ -534,12 +555,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naraxas",
 		},
-		[31707] = {
-			["school"] = 16,
+		[240065] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Water Elemental",
+			["source"] = "Succulent Lasher",
 		},
 		[227365] = {
 			["school"] = 1,
@@ -566,14 +589,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Rafe Dreuger",
 		},
-		[238598] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[198428] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Choking Vines",
+			["source"] = "Ularogg Cragshaper",
 		},
 		[228318] = {
 			["school"] = 1,
@@ -583,13 +605,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spectral Apprentice",
 		},
-		[227636] = {
-			["school"] = 1,
+		[193473] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Attumen the Huntsman",
+			["source"] = "Void Tendril",
 		},
 		[199775] = {
 			["school"] = 1,
@@ -621,30 +643,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Attumen the Huntsman",
 		},
-		[193473] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Void Tendril",
-		},
-		[198428] = {
+		[227636] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ularogg Cragshaper",
+			["source"] = "Attumen the Huntsman",
 		},
-		[240065] = {
+		[238598] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Succulent Lasher",
+			["source"] = "Choking Vines",
+		},
+		[31707] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Water Elemental",
 		},
 		[193267] = {
 			["school"] = 1,
@@ -655,16 +676,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bellowing Idol",
 		},
-		[232135] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[228011] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Silver Forks",
+			["source"] = "Mrs. Cauldrons",
 		},
 		[29928] = {
 			["school"] = 4,
@@ -689,33 +708,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spectral Journeyman",
 		},
-		[201983] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Emberhusk Dominator",
-		},
-		[228019] = {
+		[236527] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mrs. Cauldrons",
+			["source"] = "Agronox",
 		},
-		[227542] = {
-			["school"] = 2,
+		[227737] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Moroes",
+		},
+		[227415] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lady Catriona Von'Indi",
 		},
 		[228193] = {
 			["school"] = 4,
@@ -732,13 +743,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dargrul",
 		},
-		[227742] = {
+		[227736] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Moroes",
 		},
@@ -759,33 +768,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Agronox",
 		},
-		[209858] = {
-			["school"] = 40,
-			["type"] = "DEBUFF",
+		[227638] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Attumen the Huntsman",
+		},
+		[227817] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Luminore",
+			["source"] = "Maiden of Virtue",
 		},
-		[188494] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Attumen the Huntsman",
-		}, -- [1]
-		{
-			["boss"] = "Attumen the Huntsman",
-		}, -- [2]
-		{
-			["boss"] = "Attumen the Huntsman",
-		}, -- [3]
 	},
 }

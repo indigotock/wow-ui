@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Demonpunter-Aerie Peak",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128832] = {
 			["Relics"] = {
@@ -40,7 +41,6 @@ PawnOptions = {
 			["Name"] = "Twinblades of the Deceiver",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",

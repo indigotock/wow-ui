@@ -8,14 +8,14 @@ TradeSkillMaster_CraftingDB = {
 			"Thedrin - Aerie Peak", -- [3]
 			"Minidrin - Aerie Peak", -- [4]
 		},
-		["factionrealm"] = {
-			"Alliance - Aerie Peak", -- [1]
+		["realm"] = {
+			"Aerie Peak", -- [1]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["realm"] = {
-			"Aerie Peak", -- [1]
+		["factionrealm"] = {
+			"Alliance - Aerie Peak", -- [1]
 		},
 	},
 	["f@Alliance - Aerie Peak@crafts"] = {
@@ -26,26 +26,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132488",
+			["name"] = "Light Scale Boots",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Scale Boots",
+			["itemString"] = "i:132488",
 		},
 		[20008] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:16202"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Intellect",
+			["itemString"] = "i:38852",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38852",
+			["name"] = "Greater Intellect",
 		},
 		[20016] = {
 			["mats"] = {
@@ -55,12 +55,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Vitality",
+			["itemString"] = "i:38860",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38860",
+			["name"] = "Vitality",
 		},
 		[226110] = {
 			["mats"] = {
@@ -69,12 +69,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132548",
+			["name"] = "Shamanic Treads",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Shamanic Treads",
+			["itemString"] = "i:132548",
 		},
 		[13637] = {
 			["mats"] = {
@@ -84,12 +84,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Agility",
+			["itemString"] = "i:38807",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38807",
+			["name"] = "Lesser Agility",
 		},
 		[33996] = {
 			["mats"] = {
@@ -98,12 +98,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Assault",
+			["itemString"] = "i:38934",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38934",
+			["name"] = "Assault",
 		},
 		[226111] = {
 			["mats"] = {
@@ -113,12 +113,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132492",
+			["name"] = "Light Scale Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Scale Pants",
+			["itemString"] = "i:132492",
 		},
 		[9058] = {
 			["mats"] = {
@@ -127,12 +127,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7276",
+			["name"] = "Handstitched Leather Cloak",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Handstitched Leather Cloak",
+			["itemString"] = "i:7276",
 		},
 		[13661] = {
 			["mats"] = {
@@ -141,27 +141,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Strength",
+			["itemString"] = "i:38817",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38817",
+			["name"] = "Strength",
 		},
 		[158915] = {
 			["mats"] = {
 				["i:113261"] = 3,
-				["i:38682"] = 1,
 				["i:113588"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Haste",
+			["itemString"] = "i:110639",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110639",
+			["name"] = "Gift of Haste",
 		},
 		[9074] = {
 			["mats"] = {
@@ -171,28 +171,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7285",
+			["name"] = "Nimble Leather Gloves",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nimble Leather Gloves",
+			["itemString"] = "i:7285",
 		},
 		[198965] = {
 			["mats"] = {
 				["i:136630"] = 1,
+				["i:136633"] = 2,
 				["i:136636"] = 2,
 				["i:124113"] = 50,
-				["i:136633"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["name"] = "Tactical Headgun",
+			["itemString"] = "i:132501",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:132501",
+			["name"] = "Tactical Headgun",
 		},
 		[226112] = {
 			["mats"] = {
@@ -202,12 +202,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132493",
+			["name"] = "Chain Hauberk",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Hauberk",
+			["itemString"] = "i:132493",
 		},
 		[159235] = {
 			["mats"] = {
@@ -217,12 +217,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mark of the Thunderlord",
+			["itemString"] = "i:110682",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110682",
+			["name"] = "Mark of the Thunderlord",
 		},
 		[13693] = {
 			["mats"] = {
@@ -232,12 +232,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Striking",
+			["itemString"] = "i:38821",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38821",
+			["name"] = "Striking",
 		},
 		[2538] = {
 			["mats"] = {
@@ -245,12 +245,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Cooking",
-			["itemString"] = "i:2679",
+			["name"] = "Charred Wolf Meat",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Charred Wolf Meat",
+			["itemString"] = "i:2679",
 		},
 		[158916] = {
 			["mats"] = {
@@ -260,12 +260,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Mastery",
+			["itemString"] = "i:110640",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110640",
+			["name"] = "Gift of Mastery",
 		},
 		[2540] = {
 			["mats"] = {
@@ -273,12 +273,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Cooking",
-			["itemString"] = "i:2681",
+			["name"] = "Roasted Boar Meat",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Roasted Boar Meat",
+			["itemString"] = "i:2681",
 		},
 		[44488] = {
 			["mats"] = {
@@ -287,12 +287,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Precision",
+			["itemString"] = "i:38953",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38953",
+			["name"] = "Precision",
 		},
 		[27905] = {
 			["mats"] = {
@@ -302,12 +302,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Stats",
+			["itemString"] = "i:38898",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38898",
+			["name"] = "Stats",
 		},
 		[226113] = {
 			["mats"] = {
@@ -317,26 +317,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132494",
+			["name"] = "Chain Boots",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Boots",
+			["itemString"] = "i:132494",
 		},
 		[159236] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:113588"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mark of the Shattered Hand",
+			["itemString"] = "i:112093",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:112093",
+			["name"] = "Mark of the Shattered Hand",
 		},
 		[7126] = {
 			["mats"] = {
@@ -345,12 +345,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:5957",
+			["name"] = "Handstitched Leather Vest",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Handstitched Leather Vest",
+			["itemString"] = "i:5957",
 		},
 		[74189] = {
 			["mats"] = {
@@ -359,12 +359,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Earthen Vitality",
+			["itemString"] = "i:52743",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52743",
+			["name"] = "Earthen Vitality",
 		},
 		[44584] = {
 			["mats"] = {
@@ -374,12 +374,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Vitality",
+			["itemString"] = "i:38974",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38974",
+			["name"] = "Greater Vitality",
 		},
 		[194751] = {
 			["mats"] = {
@@ -387,12 +387,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128899",
+			["name"] = "Battlebound Armbands",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Armbands",
+			["itemString"] = "i:128899",
 		},
 		[27961] = {
 			["mats"] = {
@@ -401,43 +401,43 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Armor",
+			["itemString"] = "i:38914",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38914",
+			["name"] = "Major Armor",
 		},
 		[198967] = {
 			["mats"] = {
 				["i:136630"] = 1,
+				["i:136633"] = 2,
 				["i:136636"] = 2,
 				["i:123918"] = 50,
-				["i:136633"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["name"] = "Reinforced Headgun",
+			["itemString"] = "i:132503",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:132503",
+			["name"] = "Reinforced Headgun",
 		},
 		[226114] = {
 			["mats"] = {
-				["i:4231"] = 2,
 				["i:2320"] = 2,
+				["i:4231"] = 2,
 				["i:4243"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132545",
+			["name"] = "Crackling Scale Breastplate",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crackling Scale Breastplate",
+			["itemString"] = "i:132545",
 		},
 		[158918] = {
 			["mats"] = {
@@ -447,12 +447,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Versatility",
+			["itemString"] = "i:110642",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110642",
+			["name"] = "Gift of Versatility",
 		},
 		[194752] = {
 			["mats"] = {
@@ -460,12 +460,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128896",
+			["name"] = "Battlebound Leggings",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Leggings",
+			["itemString"] = "i:128896",
 		},
 		[226115] = {
 			["mats"] = {
@@ -475,12 +475,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132547",
+			["name"] = "Blue Chain Leggings",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Blue Chain Leggings",
+			["itemString"] = "i:132547",
 		},
 		[14807] = {
 			["mats"] = {
@@ -489,12 +489,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Magic Wand",
+			["itemString"] = "i:11288",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:11288",
+			["name"] = "Greater Magic Wand",
 		},
 		[194753] = {
 			["mats"] = {
@@ -502,12 +502,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128895",
+			["name"] = "Battlebound Warhelm",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Warhelm",
+			["itemString"] = "i:128895",
 		},
 		[201524] = {
 			["mats"] = {
@@ -517,12 +517,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 7,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133557",
+			["name"] = "Salt & Pepper Shank",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Salt & Pepper Shank",
+			["itemString"] = "i:133557",
 		},
 		[226116] = {
 			["mats"] = {
@@ -532,12 +532,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132496",
+			["name"] = "Chain Bracers",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Bracers",
+			["itemString"] = "i:132496",
 		},
 		[194754] = {
 			["mats"] = {
@@ -545,12 +545,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128894",
+			["name"] = "Battlebound Grips",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Grips",
+			["itemString"] = "i:128894",
 		},
 		[44489] = {
 			["mats"] = {
@@ -560,12 +560,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Dodge",
+			["itemString"] = "i:38954",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38954",
+			["name"] = "Dodge",
 		},
 		[226117] = {
 			["mats"] = {
@@ -575,41 +575,41 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132497",
+			["name"] = "Chain Leggings",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Leggings",
+			["itemString"] = "i:132497",
 		},
 		[74191] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:52718"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mighty Stats",
+			["itemString"] = "i:52744",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52744",
+			["name"] = "Mighty Stats",
 		},
 		[74223] = {
 			["mats"] = {
 				["i:52328"] = 6,
-				["i:38682"] = 1,
 				["i:52721"] = 6,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Hurricane",
+			["itemString"] = "i:52760",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52760",
+			["name"] = "Hurricane",
 		},
 		[20033] = {
 			["mats"] = {
@@ -619,12 +619,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Unholy Weapon",
+			["itemString"] = "i:38872",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38872",
+			["name"] = "Unholy Weapon",
 		},
 		[44633] = {
 			["mats"] = {
@@ -634,12 +634,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Agility",
+			["itemString"] = "i:38995",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38995",
+			["name"] = "Exceptional Agility",
 		},
 		[226118] = {
 			["mats"] = {
@@ -649,27 +649,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132499",
+			["name"] = "Chain Gauntlets",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Gauntlets",
+			["itemString"] = "i:132499",
 		},
 		[13378] = {
 			["mats"] = {
 				["i:38682"] = 1,
-				["i:10998"] = 1,
 				["i:10940"] = 2,
+				["i:10998"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Stamina",
+			["itemString"] = "i:38787",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38787",
+			["name"] = "Minor Stamina",
 		},
 		[13905] = {
 			["mats"] = {
@@ -679,12 +679,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Versatility",
+			["itemString"] = "i:38839",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38839",
+			["name"] = "Greater Versatility",
 		},
 		[226119] = {
 			["mats"] = {
@@ -695,12 +695,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132495",
+			["name"] = "Chain Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Belt",
+			["itemString"] = "i:132495",
 		},
 		[20648] = {
 			["mats"] = {
@@ -708,12 +708,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2319",
+			["name"] = "Medium Leather",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Medium Leather",
+			["itemString"] = "i:2319",
 		},
 		[74192] = {
 			["mats"] = {
@@ -722,12 +722,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Power",
+			["itemString"] = "i:52745",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52745",
+			["name"] = "Lesser Power",
 		},
 		[29359] = {
 			["mats"] = {
@@ -735,27 +735,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:23447",
+			["name"] = "Eternium Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Eternium Bar",
+			["itemString"] = "i:23447",
 		},
 		[13937] = {
 			["mats"] = {
 				["i:11176"] = 2,
-				["i:38682"] = 1,
 				["i:11178"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Impact",
+			["itemString"] = "i:38845",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38845",
+			["name"] = "Greater Impact",
 		},
 		[226120] = {
 			["mats"] = {
@@ -765,12 +765,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132543",
+			["name"] = "Spritescale Epaulets",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spritescale Epaulets",
+			["itemString"] = "i:132543",
 		},
 		[162948] = {
 			["mats"] = {
@@ -778,12 +778,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Enchanted Dust",
+			["itemString"] = "i:112321",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:112321",
+			["name"] = "Enchanted Dust",
 		},
 		[194758] = {
 			["mats"] = {
@@ -791,12 +791,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128892",
+			["name"] = "Battlebound Hauberk",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Hauberk",
+			["itemString"] = "i:128892",
 		},
 		[44506] = {
 			["mats"] = {
@@ -805,28 +805,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gatherer",
+			["itemString"] = "i:38960",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38960",
+			["name"] = "Gatherer",
 		},
 		[226121] = {
 			["mats"] = {
 				["i:2321"] = 2,
-				["i:4340"] = 1,
-				["i:3390"] = 1,
 				["i:2319"] = 12,
+				["i:3390"] = 1,
+				["i:4340"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132498",
+			["name"] = "Chain Pauldrons",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Chain Pauldrons",
+			["itemString"] = "i:132498",
 		},
 		[74193] = {
 			["mats"] = {
@@ -836,12 +836,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Speed",
+			["itemString"] = "i:52746",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52746",
+			["name"] = "Speed",
 		},
 		[74225] = {
 			["mats"] = {
@@ -853,12 +853,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Heartsong",
+			["itemString"] = "i:52761",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52761",
+			["name"] = "Heartsong",
 		},
 		[27954] = {
 			["mats"] = {
@@ -868,28 +868,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Surefooted",
+			["itemString"] = "i:38910",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38910",
+			["name"] = "Surefooted",
 		},
 		[226122] = {
 			["mats"] = {
 				["i:2321"] = 2,
-				["i:2997"] = 2,
-				["i:7067"] = 2,
 				["i:2319"] = 12,
+				["i:7067"] = 2,
+				["i:2997"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132546",
+			["name"] = "Element Grips",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Element Grips",
+			["itemString"] = "i:132546",
 		},
 		[7779] = {
 			["mats"] = {
@@ -899,28 +899,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Agility",
+			["itemString"] = "i:38777",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38777",
+			["name"] = "Minor Agility",
 		},
 		[201531] = {
 			["mats"] = {
-				["i:124120"] = 5,
 				["i:124112"] = 5,
-				["i:133590"] = 4,
 				["i:133591"] = 1,
+				["i:133590"] = 4,
+				["i:124120"] = 5,
 			},
 			["numResult"] = 7,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133567",
+			["name"] = "Barracuda Mrglgagh",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Barracuda Mrglgagh",
+			["itemString"] = "i:133567",
 		},
 		[226123] = {
 			["mats"] = {
@@ -930,28 +930,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132533",
+			["name"] = "Heavy Scale Gauntlets",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Scale Gauntlets",
+			["itemString"] = "i:132533",
 		},
 		[13538] = {
 			["mats"] = {
 				["i:11082"] = 1,
 				["i:38682"] = 1,
-				["i:10940"] = 2,
 				["i:11084"] = 1,
+				["i:10940"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Absorption",
+			["itemString"] = "i:38798",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38798",
+			["name"] = "Lesser Absorption",
 		},
 		[74226] = {
 			["mats"] = {
@@ -960,12 +960,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mastery",
+			["itemString"] = "i:52762",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52762",
+			["name"] = "Mastery",
 		},
 		[104407] = {
 			["mats"] = {
@@ -975,12 +975,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Haste",
+			["itemString"] = "i:74715",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74715",
+			["name"] = "Greater Haste",
 		},
 		[226124] = {
 			["mats"] = {
@@ -992,28 +992,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132534",
+			["name"] = "Heavy Scale Wraps",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Scale Wraps",
+			["itemString"] = "i:132534",
 		},
 		[201533] = {
 			["mats"] = {
-				["i:124109"] = 5,
 				["i:133592"] = 10,
-				["i:133589"] = 4,
 				["i:133593"] = 10,
+				["i:133589"] = 4,
+				["i:124109"] = 5,
 			},
 			["numResult"] = 7,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133569",
+			["name"] = "Drogbar-Style Salmon",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Drogbar-Style Salmon",
+			["itemString"] = "i:133569",
 		},
 		[226125] = {
 			["mats"] = {
@@ -1023,26 +1023,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132542",
+			["name"] = "Spritescale Britches",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Spritescale Britches",
+			["itemString"] = "i:132542",
 		},
 		[44555] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:34054"] = 10,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Intellect",
+			["itemString"] = "i:38968",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38968",
+			["name"] = "Exceptional Intellect",
 		},
 		[74195] = {
 			["mats"] = {
@@ -1052,12 +1052,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mending",
+			["itemString"] = "i:52747",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52747",
+			["name"] = "Mending",
 		},
 		[104408] = {
 			["mats"] = {
@@ -1067,12 +1067,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Precision",
+			["itemString"] = "i:74716",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74716",
+			["name"] = "Greater Precision",
 		},
 		[104440] = {
 			["mats"] = {
@@ -1081,12 +1081,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Colossus",
+			["itemString"] = "i:74727",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74727",
+			["name"] = "Colossus",
 		},
 		[44635] = {
 			["mats"] = {
@@ -1096,12 +1096,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Spellpower",
+			["itemString"] = "i:38997",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38997",
+			["name"] = "Greater Spellpower",
 		},
 		[190867] = {
 			["mats"] = {
@@ -1110,12 +1110,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Haste",
+			["itemString"] = "i:128538",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128538",
+			["name"] = "Word of Haste",
 		},
 		[13626] = {
 			["mats"] = {
@@ -1126,26 +1126,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Stats",
+			["itemString"] = "i:38804",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38804",
+			["name"] = "Minor Stats",
 		},
 		[13642] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:11134"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Versatility",
+			["itemString"] = "i:38809",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38809",
+			["name"] = "Versatility",
 		},
 		[13646] = {
 			["mats"] = {
@@ -1155,27 +1155,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Dodge",
+			["itemString"] = "i:38811",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38811",
+			["name"] = "Lesser Dodge",
 		},
 		[7857] = {
 			["mats"] = {
 				["i:38682"] = 1,
-				["i:10940"] = 4,
 				["i:10998"] = 1,
+				["i:10940"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Health",
+			["itemString"] = "i:38782",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38782",
+			["name"] = "Health",
 		},
 		[9059] = {
 			["mats"] = {
@@ -1184,12 +1184,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7277",
+			["name"] = "Handstitched Leather Bracers",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Handstitched Leather Bracers",
+			["itemString"] = "i:7277",
 		},
 		[2657] = {
 			["mats"] = {
@@ -1197,12 +1197,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:2840",
+			["name"] = "Copper Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Copper Bar",
+			["itemString"] = "i:2840",
 		},
 		[2658] = {
 			["mats"] = {
@@ -1210,12 +1210,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:2842",
+			["name"] = "Silver Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silver Bar",
+			["itemString"] = "i:2842",
 		},
 		[2659] = {
 			["mats"] = {
@@ -1224,12 +1224,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 2,
 			["profession"] = "Mining",
-			["itemString"] = "i:2841",
+			["name"] = "Bronze Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Bronze Bar",
+			["itemString"] = "i:2841",
 		},
 		[29360] = {
 			["mats"] = {
@@ -1238,12 +1238,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:23448",
+			["name"] = "Felsteel Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Felsteel Bar",
+			["itemString"] = "i:23448",
 		},
 		[118238] = {
 			["mats"] = {
@@ -1251,12 +1251,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 3,
 			["profession"] = "Enchanting",
-			["name"] = "Mysterious Essence",
+			["itemString"] = "i:74250",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74250",
+			["name"] = "Mysterious Essence",
 		},
 		[2152] = {
 			["mats"] = {
@@ -1264,12 +1264,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2304",
+			["name"] = "Light Armor Kit",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Armor Kit",
+			["itemString"] = "i:2304",
 		},
 		[2153] = {
 			["mats"] = {
@@ -1278,12 +1278,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2303",
+			["name"] = "Handstitched Leather Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Handstitched Leather Pants",
+			["itemString"] = "i:2303",
 		},
 		[171260] = {
 			["mats"] = {
@@ -1291,12 +1291,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116164",
+			["name"] = "Journeying Helm",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Journeying Helm",
+			["itemString"] = "i:116164",
 		},
 		[44492] = {
 			["mats"] = {
@@ -1305,12 +1305,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mighty Health",
+			["itemString"] = "i:38955",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38955",
+			["name"] = "Mighty Health",
 		},
 		[8604] = {
 			["mats"] = {
@@ -1318,12 +1318,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Cooking",
-			["itemString"] = "i:6888",
+			["name"] = "Herb Baked Egg",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Herb Baked Egg",
+			["itemString"] = "i:6888",
 		},
 		[70524] = {
 			["mats"] = {
@@ -1332,12 +1332,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:12655",
+			["name"] = "Enchanted Thorium Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Enchanted Thorium Bar",
+			["itemString"] = "i:12655",
 		},
 		[2161] = {
 			["mats"] = {
@@ -1346,12 +1346,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2309",
+			["name"] = "Embossed Leather Boots",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Embossed Leather Boots",
+			["itemString"] = "i:2309",
 		},
 		[2162] = {
 			["mats"] = {
@@ -1360,12 +1360,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2310",
+			["name"] = "Embossed Leather Cloak",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Embossed Leather Cloak",
+			["itemString"] = "i:2310",
 		},
 		[74197] = {
 			["mats"] = {
@@ -1375,12 +1375,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Avalanche",
+			["itemString"] = "i:52748",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52748",
+			["name"] = "Avalanche",
 		},
 		[74229] = {
 			["mats"] = {
@@ -1390,12 +1390,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Dodge",
+			["itemString"] = "i:52763",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52763",
+			["name"] = "Superior Dodge",
 		},
 		[2165] = {
 			["mats"] = {
@@ -1404,12 +1404,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2313",
+			["name"] = "Medium Armor Kit",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Medium Armor Kit",
+			["itemString"] = "i:2313",
 		},
 		[2166] = {
 			["mats"] = {
@@ -1419,12 +1419,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2314",
+			["name"] = "Toughened Leather Armor",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Toughened Leather Armor",
+			["itemString"] = "i:2314",
 		},
 		[2167] = {
 			["mats"] = {
@@ -1434,12 +1434,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2315",
+			["name"] = "Dark Leather Boots",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Leather Boots",
+			["itemString"] = "i:2315",
 		},
 		[2168] = {
 			["mats"] = {
@@ -1449,12 +1449,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2316",
+			["name"] = "Dark Leather Cloak",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Leather Cloak",
+			["itemString"] = "i:2316",
 		},
 		[172539] = {
 			["mats"] = {
@@ -1462,12 +1462,13 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "First Aid",
-			["itemString"] = "i:111603",
+			["name"] = "Antiseptic Bandage",
 			["players"] = {
 				["Demonpunter"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Antiseptic Bandage",
+			["itemString"] = "i:111603",
 		},
 		[47766] = {
 			["mats"] = {
@@ -1477,12 +1478,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Dodge",
+			["itemString"] = "i:39002",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:39002",
+			["name"] = "Greater Dodge",
 		},
 		[194704] = {
 			["mats"] = {
@@ -1491,12 +1492,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128882",
+			["name"] = "Warhide Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Belt",
+			["itemString"] = "i:128882",
 		},
 		[171262] = {
 			["mats"] = {
@@ -1504,12 +1505,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116166",
+			["name"] = "Journeying Slacks",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Journeying Slacks",
+			["itemString"] = "i:116166",
 		},
 		[104698] = {
 			["mats"] = {
@@ -1517,12 +1518,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 2,
 			["profession"] = "Enchanting",
-			["name"] = "Heavenly Shard",
+			["itemString"] = "i:52721",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52721",
+			["name"] = "Heavenly Shard",
 		},
 		[201539] = {
 			["mats"] = {
@@ -1530,12 +1531,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 7,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133575",
+			["name"] = "Dried Mackerel Strips",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dried Mackerel Strips",
+			["itemString"] = "i:133575",
 		},
 		[60621] = {
 			["mats"] = {
@@ -1545,12 +1546,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Potency",
+			["itemString"] = "i:44453",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44453",
+			["name"] = "Greater Potency",
 		},
 		[172540] = {
 			["mats"] = {
@@ -1558,26 +1559,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "First Aid",
-			["itemString"] = "i:109223",
+			["name"] = "Healing Tonic",
 			["players"] = {
 				["Demonpunter"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Healing Tonic",
+			["itemString"] = "i:109223",
 		},
 		[60653] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:34054"] = 12,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Intellect",
+			["itemString"] = "i:44455",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44455",
+			["name"] = "Greater Intellect",
 		},
 		[169091] = {
 			["mats"] = {
@@ -1585,26 +1587,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Luminous Shard",
+			["itemString"] = "i:111245",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:111245",
+			["name"] = "Luminous Shard",
 		},
 		[7418] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:10940"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Health",
+			["itemString"] = "i:38679",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38679",
+			["name"] = "Minor Health",
 		},
 		[171263] = {
 			["mats"] = {
@@ -1612,12 +1614,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116167",
+			["name"] = "Traveling Helm",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Traveling Helm",
+			["itemString"] = "i:116167",
 		},
 		[171391] = {
 			["players"] = {
@@ -1647,12 +1649,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Absorption",
+			["itemString"] = "i:38767",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38767",
+			["name"] = "Minor Absorption",
 		},
 		[172541] = {
 			["mats"] = {
@@ -1660,12 +1662,13 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "First Aid",
-			["itemString"] = "i:116979",
+			["name"] = "Blackwater Anti-Venom",
 			["players"] = {
 				["Demonpunter"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Blackwater Anti-Venom",
+			["itemString"] = "i:116979",
 		},
 		[13822] = {
 			["mats"] = {
@@ -1674,12 +1677,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Intellect",
+			["itemString"] = "i:38829",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38829",
+			["name"] = "Intellect",
 		},
 		[169092] = {
 			["players"] = {
@@ -1706,12 +1709,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116168",
+			["name"] = "Traveling Tunic",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Traveling Tunic",
+			["itemString"] = "i:116168",
 		},
 		[44509] = {
 			["mats"] = {
@@ -1721,26 +1724,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Versatility",
+			["itemString"] = "i:38962",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38962",
+			["name"] = "Greater Versatility",
 		},
 		[190874] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:124441"] = 20,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Strength",
+			["itemString"] = "i:128545",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128545",
+			["name"] = "Word of Strength",
 		},
 		[172542] = {
 			["mats"] = {
@@ -1748,12 +1751,13 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "First Aid",
-			["itemString"] = "i:116981",
+			["name"] = "Fire Ammonite Oil",
 			["players"] = {
 				["Demonpunter"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fire Ammonite Oil",
+			["itemString"] = "i:116981",
 		},
 		[20011] = {
 			["mats"] = {
@@ -1762,12 +1766,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Stamina",
+			["itemString"] = "i:38855",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38855",
+			["name"] = "Superior Stamina",
 		},
 		[13858] = {
 			["mats"] = {
@@ -1776,12 +1780,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Health",
+			["itemString"] = "i:38833",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38833",
+			["name"] = "Superior Health",
 		},
 		[194707] = {
 			["mats"] = {
@@ -1789,12 +1793,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128879",
+			["name"] = "Warhide Mask",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Mask",
+			["itemString"] = "i:128879",
 		},
 		[171265] = {
 			["mats"] = {
@@ -1802,12 +1806,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:116169",
+			["name"] = "Traveling Leggings",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Traveling Leggings",
+			["itemString"] = "i:116169",
 		},
 		[198987] = {
 			["mats"] = {
@@ -1819,12 +1823,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["itemString"] = "i:132528",
+			["name"] = "Reaves Module: Fireworks Display Mode",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Reaves Module: Fireworks Display Mode",
+			["itemString"] = "i:132528",
 		},
 		[49252] = {
 			["mats"] = {
@@ -1832,12 +1836,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:36916",
+			["name"] = "Cobalt Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cobalt Bar",
+			["itemString"] = "i:36916",
 		},
 		[13882] = {
 			["mats"] = {
@@ -1846,28 +1850,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Agility",
+			["itemString"] = "i:38835",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38835",
+			["name"] = "Lesser Agility",
 		},
 		[13890] = {
 			["mats"] = {
 				["i:11174"] = 1,
 				["i:38682"] = 1,
-				["i:11177"] = 1,
 				["i:7909"] = 1,
+				["i:11177"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Speed",
+			["itemString"] = "i:38837",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38837",
+			["name"] = "Minor Speed",
 		},
 		[34002] = {
 			["mats"] = {
@@ -1876,12 +1880,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Assault",
+			["itemString"] = "i:38938",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38938",
+			["name"] = "Lesser Assault",
 		},
 		[60606] = {
 			["mats"] = {
@@ -1891,26 +1895,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Assault",
+			["itemString"] = "i:44449",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44449",
+			["name"] = "Assault",
 		},
 		[190876] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:124441"] = 20,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Intellect",
+			["itemString"] = "i:128547",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128547",
+			["name"] = "Word of Intellect",
 		},
 		[74200] = {
 			["mats"] = {
@@ -1920,12 +1924,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Stamina",
+			["itemString"] = "i:52751",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52751",
+			["name"] = "Stamina",
 		},
 		[74232] = {
 			["mats"] = {
@@ -1935,26 +1939,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Precision",
+			["itemString"] = "i:52766",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52766",
+			["name"] = "Precision",
 		},
 		[104445] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:74250"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Intellect",
+			["itemString"] = "i:74729",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74729",
+			["name"] = "Major Intellect",
 		},
 		[217641] = {
 			["mats"] = {
@@ -1966,12 +1970,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Tome of Illusions: Outland",
+			["itemString"] = "i:138789",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:138789",
+			["name"] = "Tome of Illusions: Outland",
 		},
 		[3753] = {
 			["mats"] = {
@@ -1980,12 +1984,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4237",
+			["name"] = "Handstitched Leather Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Handstitched Leather Belt",
+			["itemString"] = "i:4237",
 		},
 		[95471] = {
 			["mats"] = {
@@ -1996,12 +2000,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mighty Agility",
+			["itemString"] = "i:68134",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:68134",
+			["name"] = "Mighty Agility",
 		},
 		[3756] = {
 			["mats"] = {
@@ -2010,27 +2014,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4239",
+			["name"] = "Embossed Leather Gloves",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Embossed Leather Gloves",
+			["itemString"] = "i:4239",
 		},
 		[3759] = {
 			["mats"] = {
-				["i:2318"] = 6,
 				["i:2320"] = 2,
 				["i:4231"] = 1,
+				["i:2318"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4242",
+			["name"] = "Embossed Leather Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Embossed Leather Pants",
+			["itemString"] = "i:4242",
 		},
 		[158877] = {
 			["mats"] = {
@@ -2039,12 +2043,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Critical Strike",
+			["itemString"] = "i:110631",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110631",
+			["name"] = "Breath of Critical Strike",
 		},
 		[194711] = {
 			["mats"] = {
@@ -2052,12 +2056,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128883",
+			["name"] = "Warhide Bindings",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Bindings",
+			["itemString"] = "i:128883",
 		},
 		[194775] = {
 			["mats"] = {
@@ -2066,12 +2070,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:129961",
+			["name"] = "Flaming Hoop",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Flaming Hoop",
+			["itemString"] = "i:129961",
 		},
 		[3763] = {
 			["mats"] = {
@@ -2080,12 +2084,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4246",
+			["name"] = "Fine Leather Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fine Leather Belt",
+			["itemString"] = "i:4246",
 		},
 		[3764] = {
 			["mats"] = {
@@ -2094,12 +2098,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4247",
+			["name"] = "Hillman's Leather Gloves",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hillman's Leather Gloves",
+			["itemString"] = "i:4247",
 		},
 		[3766] = {
 			["mats"] = {
@@ -2110,12 +2114,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4249",
+			["name"] = "Dark Leather Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Leather Belt",
+			["itemString"] = "i:4249",
 		},
 		[93843] = {
 			["mats"] = {
@@ -2125,12 +2129,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Magic Lamp",
+			["itemString"] = "i:67275",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:67275",
+			["name"] = "Magic Lamp",
 		},
 		[3768] = {
 			["mats"] = {
@@ -2140,12 +2144,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4251",
+			["name"] = "Hillman's Shoulders",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Hillman's Shoulders",
+			["itemString"] = "i:4251",
 		},
 		[194712] = {
 			["mats"] = {
@@ -2153,12 +2157,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128880",
+			["name"] = "Warhide Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Pants",
+			["itemString"] = "i:128880",
 		},
 		[194776] = {
 			["mats"] = {
@@ -2167,12 +2171,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:129960",
+			["name"] = "Leather Pet Bed",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Leather Pet Bed",
+			["itemString"] = "i:129960",
 		},
 		[28028] = {
 			["mats"] = {
@@ -2180,12 +2184,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Void Sphere",
+			["itemString"] = "i:22459",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:22459",
+			["name"] = "Void Sphere",
 		},
 		[201547] = {
 			["mats"] = {
@@ -2195,12 +2199,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 10,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133563",
+			["name"] = "Faronaar Fizz",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Faronaar Fizz",
+			["itemString"] = "i:133563",
 		},
 		[60623] = {
 			["mats"] = {
@@ -2210,29 +2214,29 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Icewalker",
+			["itemString"] = "i:38986",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38986",
+			["name"] = "Icewalker",
 		},
 		[217644] = {
 			["mats"] = {
 				["i:34057"] = 10,
 				["i:35622"] = 4,
-				["i:34052"] = 5,
-				["i:34055"] = 8,
 				["i:39354"] = 3,
+				["i:34055"] = 8,
+				["i:34052"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Tome of Illusions: Northrend",
+			["itemString"] = "i:138790",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:138790",
+			["name"] = "Tome of Illusions: Northrend",
 		},
 		[74234] = {
 			["mats"] = {
@@ -2242,12 +2246,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Protection",
+			["itemString"] = "i:52767",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52767",
+			["name"] = "Protection",
 		},
 		[3780] = {
 			["mats"] = {
@@ -2256,29 +2260,29 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4265",
+			["name"] = "Heavy Armor Kit",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Armor Kit",
+			["itemString"] = "i:4265",
 		},
 		[217645] = {
 			["mats"] = {
 				["i:52328"] = 5,
 				["i:52722"] = 10,
-				["i:52721"] = 10,
-				["i:39354"] = 3,
 				["i:52327"] = 5,
+				["i:39354"] = 3,
+				["i:52721"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Tome of Illusions: Cataclysm",
+			["itemString"] = "i:138791",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:138791",
+			["name"] = "Tome of Illusions: Cataclysm",
 		},
 		[194714] = {
 			["mats"] = {
@@ -2286,12 +2290,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128878",
+			["name"] = "Warhide Gloves",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Gloves",
+			["itemString"] = "i:128878",
 		},
 		[194778] = {
 			["mats"] = {
@@ -2300,12 +2304,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:129958",
+			["name"] = "Leather Pet Leash",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Leather Pet Leash",
+			["itemString"] = "i:129958",
+		},
+		[198979] = {
+			["mats"] = {
+				["i:124106"] = 3,
+				["i:136632"] = 1,
+				["i:123918"] = 150,
+			},
+			["numResult"] = 1,
+			["profession"] = "Engineering",
+			["name"] = "Intra-Dalaran Wormhole Generator",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:132517",
 		},
 		[20012] = {
 			["mats"] = {
@@ -2315,12 +2334,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Agility",
+			["itemString"] = "i:38856",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38856",
+			["name"] = "Greater Agility",
 		},
 		[158881] = {
 			["mats"] = {
@@ -2329,12 +2348,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Versatility",
+			["itemString"] = "i:110635",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110635",
+			["name"] = "Breath of Versatility",
 		},
 		[194715] = {
 			["mats"] = {
@@ -2342,12 +2361,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128877",
+			["name"] = "Warhide Footpads",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Footpads",
+			["itemString"] = "i:128877",
 		},
 		[194779] = {
 			["mats"] = {
@@ -2356,12 +2375,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:129956",
+			["name"] = "Leather Love Seat",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Leather Love Seat",
+			["itemString"] = "i:129956",
 		},
 		[44623] = {
 			["mats"] = {
@@ -2370,25 +2389,55 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Super Stats",
+			["itemString"] = "i:38989",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38989",
+			["name"] = "Super Stats",
 		},
-		[198982] = {
+		[44616] = {
 			["mats"] = {
-				["i:123919"] = 5,
+				["i:34054"] = 9,
+				["i:34055"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38987",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Stats",
+		},
+		[198984] = {
+			["mats"] = {
+				["i:132514"] = 5,
+				["i:123919"] = 80,
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["name"] = "Reaves Battery",
+			["name"] = "Reaves Module: Repair Mode",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:132523",
+			["itemString"] = "i:132525",
+		},
+		[198973] = {
+			["mats"] = {
+				["i:123918"] = 2,
+				["i:136637"] = 30,
+			},
+			["numResult"] = 5,
+			["profession"] = "Engineering",
+			["name"] = "Gunpowder Charge",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:132510",
 		},
 		[13631] = {
 			["mats"] = {
@@ -2398,12 +2447,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Stamina",
+			["itemString"] = "i:38805",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38805",
+			["name"] = "Lesser Stamina",
 		},
 		[13635] = {
 			["mats"] = {
@@ -2413,91 +2462,87 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Defense",
+			["itemString"] = "i:38806",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38806",
+			["name"] = "Defense",
 		},
 		[198988] = {
 			["mats"] = {
 				["i:124112"] = 20,
-				["i:124109"] = 20,
-				["i:124119"] = 20,
-				["i:124121"] = 20,
 				["i:123919"] = 80,
+				["i:124121"] = 20,
+				["i:124119"] = 20,
+				["i:124109"] = 20,
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["name"] = "Reaves Module: Snack Distribution Mode",
+			["itemString"] = "i:132529",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:132529",
+			["name"] = "Reaves Module: Snack Distribution Mode",
 		},
 		[34004] = {
 			["mats"] = {
 				["i:22445"] = 4,
 				["i:22451"] = 1,
-				["i:38682"] = 1,
 				["i:22446"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Agility",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:38940",
-		},
-		[7745] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:10940"] = 4,
-				["i:10978"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Minor Impact",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38772",
+			["name"] = "Greater Agility",
 		},
-		[198966] = {
+		[3569] = {
 			["mats"] = {
-				["i:136630"] = 1,
-				["i:136633"] = 2,
-				["i:136636"] = 2,
-				["i:124115"] = 50,
+				["i:3575"] = 1,
+				["i:3857"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Engineering",
-			["name"] = "Bolt-Action Headgun",
+			["profession"] = "Mining",
+			["name"] = "Steel Bar",
 			["players"] = {
-				["Minidrin"] = true,
+				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:132502",
+			["itemString"] = "i:3859",
 		},
-		[44383] = {
+		[2160] = {
 			["mats"] = {
-				["i:22449"] = 1,
+				["i:2318"] = 8,
+				["i:2320"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Embossed Leather Vest",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2300",
+		},
+		[190869] = {
+			["mats"] = {
+				["i:124440"] = 15,
 				["i:38682"] = 1,
-				["i:22447"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Resilience",
+			["itemString"] = "i:128540",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38949",
+			["name"] = "Word of Versatility",
 		},
 		[13659] = {
 			["mats"] = {
@@ -2507,12 +2552,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Versatility",
+			["itemString"] = "i:38816",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38816",
+			["name"] = "Versatility",
 		},
 		[13663] = {
 			["mats"] = {
@@ -2521,12 +2566,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Mana",
+			["itemString"] = "i:38818",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38818",
+			["name"] = "Greater Mana",
 		},
 		[9068] = {
 			["mats"] = {
@@ -2536,12 +2581,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7282",
+			["name"] = "Light Leather Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Leather Pants",
+			["itemString"] = "i:7282",
 		},
 		[194717] = {
 			["mats"] = {
@@ -2549,12 +2594,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128881",
+			["name"] = "Warhide Shoulderguard",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Shoulderguard",
+			["itemString"] = "i:128881",
 		},
 		[10098] = {
 			["mats"] = {
@@ -2562,12 +2607,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:6037",
+			["name"] = "Truesilver Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Truesilver Bar",
+			["itemString"] = "i:6037",
 		},
 		[74220] = {
 			["mats"] = {
@@ -2577,54 +2622,54 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Haste",
+			["itemString"] = "i:52759",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52759",
+			["name"] = "Greater Haste",
 		},
-		[7420] = {
+		[2149] = {
+			["mats"] = {
+				["i:2318"] = 2,
+				["i:2320"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Handstitched Leather Boots",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2302",
+		},
+		[104414] = {
 			["mats"] = {
 				["i:38682"] = 1,
-				["i:10940"] = 1,
+				["i:74249"] = 4,
+				["i:74250"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Health",
+			["itemString"] = "i:74718",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38766",
+			["name"] = "Pandaren's Step",
 		},
-		[2159] = {
+		[3307] = {
 			["mats"] = {
-				["i:2318"] = 10,
-				["i:2321"] = 2,
+				["i:2772"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2308",
+			["profession"] = "Mining",
+			["name"] = "Iron Bar",
 			["players"] = {
-				["Redsauce"] = true,
+				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fine Leather Cloak",
-		},
-		[3818] = {
-			["mats"] = {
-				["i:4235"] = 1,
-				["i:4289"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4236",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Cured Heavy Hide",
+			["itemString"] = "i:3575",
 		},
 		[3304] = {
 			["mats"] = {
@@ -2632,12 +2677,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:3576",
+			["name"] = "Tin Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Tin Bar",
+			["itemString"] = "i:3576",
 		},
 		[3816] = {
 			["mats"] = {
@@ -2646,12 +2691,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4231",
+			["name"] = "Cured Light Hide",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Cured Light Hide",
+			["itemString"] = "i:4231",
 		},
 		[194718] = {
 			["mats"] = {
@@ -2659,25 +2704,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128876",
+			["name"] = "Warhide Jerkin",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Warhide Jerkin",
+			["itemString"] = "i:128876",
 		},
-		[3307] = {
+		[3818] = {
 			["mats"] = {
-				["i:2772"] = 1,
+				["i:4235"] = 1,
+				["i:4289"] = 3,
 			},
 			["numResult"] = 1,
-			["profession"] = "Mining",
-			["itemString"] = "i:3575",
+			["profession"] = "Leatherworking",
+			["name"] = "Cured Heavy Hide",
 			["players"] = {
-				["Demonpunter"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Iron Bar",
+			["itemString"] = "i:4236",
 		},
 		[3308] = {
 			["mats"] = {
@@ -2685,12 +2731,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:3577",
+			["name"] = "Gold Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gold Bar",
+			["itemString"] = "i:3577",
 		},
 		[64441] = {
 			["mats"] = {
@@ -2701,12 +2747,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Blade Ward",
+			["itemString"] = "i:46026",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:46026",
+			["name"] = "Blade Ward",
 		},
 		[44528] = {
 			["mats"] = {
@@ -2716,12 +2762,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Fortitude",
+			["itemString"] = "i:38966",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38966",
+			["name"] = "Greater Fortitude",
 		},
 		[182129] = {
 			["mats"] = {
@@ -2730,26 +2776,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 2,
 			["profession"] = "Enchanting",
-			["name"] = "Fractured Temporal Crystal",
+			["itemString"] = "i:115504",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:115504",
+			["name"] = "Fractured Temporal Crystal",
 		},
 		[104404] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:74250"] = 1,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Critical Strike",
+			["itemString"] = "i:74713",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74713",
+			["name"] = "Superior Critical Strike",
 		},
 		[230936] = {
 			["mats"] = {
@@ -2759,12 +2805,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:142406",
+			["name"] = "Drums of the Mountain",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Drums of the Mountain",
+			["itemString"] = "i:142406",
 		},
 		[74237] = {
 			["mats"] = {
@@ -2774,12 +2820,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Versatility",
+			["itemString"] = "i:52770",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52770",
+			["name"] = "Exceptional Versatility",
 		},
 		[27957] = {
 			["mats"] = {
@@ -2790,12 +2836,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Health",
+			["itemString"] = "i:38911",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38911",
+			["name"] = "Exceptional Health",
 		},
 		[7135] = {
 			["mats"] = {
@@ -2805,27 +2851,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:5961",
+			["name"] = "Dark Leather Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dark Leather Pants",
+			["itemString"] = "i:5961",
 		},
 		[198999] = {
 			["mats"] = {
-				["i:136636"] = 1,
 				["i:123918"] = 40,
+				["i:136636"] = 1,
 				["i:136629"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["itemString"] = "i:132509",
+			["name"] = "Deployable Bullet Dispenser",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Deployable Bullet Dispenser",
+			["itemString"] = "i:132509",
 		},
 		[27981] = {
 			["mats"] = {
@@ -2838,25 +2884,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Sunfire",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:38923",
-		},
-		[118237] = {
-			["mats"] = {
-				["i:74250"] = 1,
-			},
-			["numResult"] = 3,
-			["profession"] = "Enchanting",
-			["name"] = "Spirit Dust",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74249",
+			["name"] = "Sunfire",
+		},
+		[74202] = {
+			["mats"] = {
+				["i:52555"] = 6,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52753",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Intellect",
 		},
 		[13503] = {
 			["mats"] = {
@@ -2866,12 +2913,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Striking",
+			["itemString"] = "i:38794",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38794",
+			["name"] = "Lesser Striking",
 		},
 		[158886] = {
 			["mats"] = {
@@ -2881,12 +2928,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Mastery",
+			["itemString"] = "i:110654",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110654",
+			["name"] = "Gift of Mastery",
 		},
 		[44508] = {
 			["mats"] = {
@@ -2896,66 +2943,71 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Versatility",
+			["itemString"] = "i:38961",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38961",
+			["name"] = "Greater Versatility",
 		},
-		[14293] = {
+		[44592] = {
 			["mats"] = {
-				["i:4470"] = 1,
-				["i:10938"] = 1,
+				["i:34056"] = 1,
+				["i:34054"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Magic Wand",
+			["itemString"] = "i:38979",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:11287",
+			["name"] = "Exceptional Spellpower",
 		},
-		[7751] = {
+		[74198] = {
 			["mats"] = {
-				["i:6291"] = 1,
+				["i:38682"] = 1,
+				["i:52555"] = 4,
+				["i:52718"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:6290",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52749",
 			["players"] = {
-				["Demonpunter"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Brilliant Smallfish",
+			["name"] = "Haste",
 		},
 		[60609] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:34054"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Speed",
+			["itemString"] = "i:44456",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44456",
+			["name"] = "Speed",
 		},
-		[3275] = {
+		[33995] = {
 			["mats"] = {
-				["i:2589"] = 1,
+				["i:22446"] = 1,
+				["i:38682"] = 1,
+				["i:22445"] = 12,
 			},
 			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:1251",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38933",
 			["players"] = {
-				["Demonpunter"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Linen Bandage",
+			["name"] = "Major Strength",
 		},
 		[14809] = {
 			["mats"] = {
@@ -2965,39 +3017,41 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Mystic Wand",
+			["itemString"] = "i:11289",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:11289",
+			["name"] = "Lesser Mystic Wand",
 		},
-		[20649] = {
+		[173323] = {
 			["mats"] = {
-				["i:2319"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4234",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Heavy Leather",
-		},
-		[13746] = {
-			["mats"] = {
-				["i:11137"] = 3,
+				["i:113264"] = 10,
+				["i:113588"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Defense",
+			["itemString"] = "i:118015",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38825",
+			["name"] = "Mark of Bleeding Hollow",
+		},
+		[3275] = {
+			["mats"] = {
+				["i:2589"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["name"] = "Linen Bandage",
+			["players"] = {
+				["Demonpunter"] = true,
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:1251",
 		},
 		[194721] = {
 			["mats"] = {
@@ -3007,42 +3061,45 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128889",
+			["name"] = "Dreadleather Shoulderguard",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Shoulderguard",
+			["itemString"] = "i:128889",
 		},
 		[104419] = {
 			["mats"] = {
-				["i:74247"] = 1,
-				["i:38682"] = 1,
 				["i:74249"] = 3,
+				["i:38682"] = 1,
+				["i:74247"] = 1,
 				["i:74250"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Super Strength",
+			["itemString"] = "i:74721",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74721",
+			["name"] = "Super Strength",
 		},
-		[194744] = {
+		[201556] = {
 			["mats"] = {
-				["i:124115"] = 12,
-				["i:124439"] = 5,
+				["i:124105"] = 1,
+				["i:129100"] = 20,
+				["i:133592"] = 10,
+				["i:124121"] = 5,
+				["i:133567"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:128898",
+			["numResult"] = 10,
+			["profession"] = "Cooking",
+			["name"] = "Nightborne Delicacy Platter",
 			["players"] = {
-				["Redsauce"] = true,
+				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Girdle",
+			["itemString"] = "i:133572",
 		},
 		[199001] = {
 			["mats"] = {
@@ -3052,12 +3109,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["itemString"] = "i:132511",
+			["name"] = "Pump-Action Bandage Gun",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Pump-Action Bandage Gun",
+			["itemString"] = "i:132511",
 		},
 		[13815] = {
 			["mats"] = {
@@ -3067,12 +3124,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Agility",
+			["itemString"] = "i:38827",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38827",
+			["name"] = "Agility",
 		},
 		[104403] = {
 			["mats"] = {
@@ -3082,12 +3139,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Intellect",
+			["itemString"] = "i:74712",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74712",
+			["name"] = "Superior Intellect",
 		},
 		[3817] = {
 			["mats"] = {
@@ -3096,69 +3153,69 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:4233",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
 			["name"] = "Cured Medium Hide",
-		},
-		[194755] = {
-			["mats"] = {
-				["i:124115"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:128893",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Treads",
+			["itemString"] = "i:4233",
 		},
-		[25126] = {
+		[201514] = {
 			["mats"] = {
-				["i:11137"] = 3,
-				["i:3371"] = 1,
+				["i:124107"] = 5,
+				["i:133593"] = 1,
 			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Lesser Wizard Oil",
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["name"] = "Fighter Chow",
 			["players"] = {
-				["Thedrin"] = true,
+				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:20746",
+			["itemString"] = "i:133577",
 		},
-		[74201] = {
+		[104430] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:52555"] = 4,
-				["i:52718"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Critical Strike",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:52752",
-		},
-		[44630] = {
-			["mats"] = {
-				["i:34054"] = 6,
-				["i:34055"] = 2,
+				["i:74250"] = 3,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Savagery",
+			["itemString"] = "i:74725",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38992",
+			["name"] = "Elemental Force",
+		},
+		[104398] = {
+			["mats"] = {
+				["i:74249"] = 7,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74710",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Accuracy",
+		},
+		[27944] = {
+			["mats"] = {
+				["i:22452"] = 10,
+				["i:38682"] = 1,
+				["i:22445"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38904",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Dodge",
 		},
 		[44513] = {
 			["mats"] = {
@@ -3168,12 +3225,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Assault",
+			["itemString"] = "i:38964",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38964",
+			["name"] = "Greater Assault",
 		},
 		[44529] = {
 			["mats"] = {
@@ -3183,42 +3240,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Agility",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:38967",
-		},
-		[13485] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:10998"] = 2,
-				["i:10940"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Lesser Versatility",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38792",
-		},
-		[20013] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:16204"] = 4,
-				["i:16202"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Greater Strength",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38857",
+			["name"] = "Major Agility",
 		},
 		[158889] = {
 			["mats"] = {
@@ -3228,12 +3255,42 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Versatility",
+			["itemString"] = "i:110656",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110656",
+			["name"] = "Gift of Versatility",
+		},
+		[20013] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:16204"] = 4,
+				["i:16202"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38857",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Strength",
+		},
+		[74207] = {
+			["mats"] = {
+				["i:52719"] = 1,
+				["i:52327"] = 15,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52754",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Protection",
 		},
 		[74239] = {
 			["mats"] = {
@@ -3243,42 +3300,42 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Haste",
+			["itemString"] = "i:52772",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52772",
+			["name"] = "Greater Haste",
 		},
 		[104420] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:74250"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Mastery",
+			["itemString"] = "i:74722",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74722",
+			["name"] = "Superior Mastery",
 		},
 		[198939] = {
 			["mats"] = {
 				["i:136630"] = 1,
-				["i:136633"] = 2,
-				["i:136636"] = 2,
 				["i:124437"] = 50,
+				["i:136636"] = 2,
+				["i:136633"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["name"] = "Blink-Trigger Headgun",
+			["itemString"] = "i:132500",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:132500",
+			["name"] = "Blink-Trigger Headgun",
 		},
 		[199003] = {
 			["mats"] = {
@@ -3288,12 +3345,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["itemString"] = "i:132514",
+			["name"] = "Auto-Hammer",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Auto-Hammer",
+			["itemString"] = "i:132514",
 		},
 		[42613] = {
 			["mats"] = {
@@ -3301,27 +3358,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Small Prismatic Shard",
+			["itemString"] = "i:22448",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:22448",
+			["name"] = "Small Prismatic Shard",
 		},
-		[44598] = {
+		[34001] = {
 			["mats"] = {
-				["i:34054"] = 12,
-				["i:34055"] = 1,
+				["i:22447"] = 3,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Haste",
+			["itemString"] = "i:38937",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38984",
+			["name"] = "Major Intellect",
 		},
 		[13887] = {
 			["mats"] = {
@@ -3331,29 +3387,29 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Strength",
+			["itemString"] = "i:38836",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38836",
+			["name"] = "Strength",
 		},
 		[217655] = {
 			["mats"] = {
-				["i:39354"] = 3,
+				["i:113262"] = 10,
 				["i:113264"] = 10,
 				["i:113588"] = 20,
-				["i:113262"] = 10,
 				["i:118472"] = 15,
+				["i:39354"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Tome of Illusions: Draenor",
+			["itemString"] = "i:138795",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:138795",
+			["name"] = "Tome of Illusions: Draenor",
 		},
 		[33990] = {
 			["mats"] = {
@@ -3362,12 +3418,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Versatility",
+			["itemString"] = "i:38928",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38928",
+			["name"] = "Major Versatility",
 		},
 		[194788] = {
 			["mats"] = {
@@ -3377,86 +3433,67 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128890",
+			["name"] = "Dreadleather Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Belt",
+			["itemString"] = "i:128890",
 		},
-		[158909] = {
+		[3760] = {
 			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
+				["i:4234"] = 5,
+				["i:2321"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Breath of Mastery",
+			["profession"] = "Leatherworking",
+			["name"] = "Hillman's Cloak",
 			["players"] = {
-				["Thedrin"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110619",
+			["itemString"] = "i:3719",
 		},
-		[217637] = {
+		[226105] = {
 			["mats"] = {
-				["i:14344"] = 10,
-				["i:7078"] = 5,
-				["i:12808"] = 5,
-				["i:39354"] = 3,
-				["i:7080"] = 5,
+				["i:2318"] = 3,
+				["i:2320"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Tome of Illusions: Azeroth",
+			["profession"] = "Leatherworking",
+			["name"] = "Light Scale Gloves",
 			["players"] = {
-				["Thedrin"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:138787",
+			["itemString"] = "i:132490",
 		},
 		[104417] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:74250"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Superior Haste",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74720",
-		},
-		[13695] = {
-			["mats"] = {
-				["i:11137"] = 4,
-				["i:11139"] = 1,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Impact",
+			["itemString"] = "i:74720",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38822",
+			["name"] = "Superior Haste",
 		},
-		[17181] = {
+		[194724] = {
 			["mats"] = {
-				["i:8170"] = 1,
-				["i:16202"] = 1,
+				["i:124113"] = 150,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Enchanted Leather",
+			["profession"] = "Leatherworking",
+			["name"] = "Dreadleather Gloves",
 			["players"] = {
-				["Thedrin"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:12810",
+			["itemString"] = "i:128886",
 		},
 		[158878] = {
 			["mats"] = {
@@ -3465,27 +3502,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Haste",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:110632",
-		},
-		[74240] = {
-			["mats"] = {
-				["i:52719"] = 4,
-				["i:38682"] = 1,
-				["i:52555"] = 9,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Greater Intellect",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52773",
+			["name"] = "Breath of Haste",
 		},
 		[44589] = {
 			["mats"] = {
@@ -3495,26 +3517,55 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Agility",
+			["itemString"] = "i:38976",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38976",
+			["name"] = "Superior Agility",
 		},
-		[13935] = {
+		[74240] = {
 			["mats"] = {
+				["i:52719"] = 4,
 				["i:38682"] = 1,
-				["i:11175"] = 2,
+				["i:52555"] = 9,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Agility",
+			["itemString"] = "i:52773",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
+			["name"] = "Greater Intellect",
+		},
+		[201496] = {
+			["mats"] = {
+				["i:124108"] = 5,
+				["i:133590"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["name"] = "Deep-Fried Mossgill",
+			["players"] = {
+				["Demonpunter"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:133561",
+		},
+		[13935] = {
+			["mats"] = {
+				["i:11175"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
 			["itemString"] = "i:38844",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Agility",
 		},
 		[13939] = {
 			["mats"] = {
@@ -3524,12 +3575,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Strength",
+			["itemString"] = "i:38846",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38846",
+			["name"] = "Greater Strength",
 		},
 		[13943] = {
 			["mats"] = {
@@ -3539,12 +3590,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Striking",
+			["itemString"] = "i:38848",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38848",
+			["name"] = "Greater Striking",
 		},
 		[7748] = {
 			["mats"] = {
@@ -3554,12 +3605,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Health",
+			["itemString"] = "i:38773",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38773",
+			["name"] = "Lesser Health",
 		},
 		[74231] = {
 			["mats"] = {
@@ -3569,12 +3620,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Versatility",
+			["itemString"] = "i:52765",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52765",
+			["name"] = "Exceptional Versatility",
 		},
 		[158892] = {
 			["mats"] = {
@@ -3583,12 +3634,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Critical Strike",
+			["itemString"] = "i:110624",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110624",
+			["name"] = "Breath of Critical Strike",
 		},
 		[194726] = {
 			["mats"] = {
@@ -3598,27 +3649,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128884",
+			["name"] = "Dreadleather Jerkin",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Jerkin",
+			["itemString"] = "i:128884",
 		},
-		[158885] = {
+		[7428] = {
 			["mats"] = {
-				["i:113263"] = 3,
-				["i:113588"] = 4,
 				["i:38682"] = 1,
+				["i:10938"] = 1,
+				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Haste",
+			["itemString"] = "i:38768",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110653",
+			["name"] = "Minor Dodge",
 		},
 		[201497] = {
 			["mats"] = {
@@ -3627,12 +3678,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 5,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133562",
+			["name"] = "Pickled Stormray",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Pickled Stormray",
+			["itemString"] = "i:133562",
 		},
 		[29358] = {
 			["mats"] = {
@@ -3640,27 +3691,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:23446",
+			["name"] = "Adamantite Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Adamantite Bar",
-		},
-		[104385] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:74249"] = 8,
-				["i:74250"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Major Dodge",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74701",
+			["itemString"] = "i:23446",
 		},
 		[13607] = {
 			["mats"] = {
@@ -3670,28 +3706,41 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mana",
+			["itemString"] = "i:38799",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38799",
+			["name"] = "Mana",
 		},
 		[23802] = {
 			["mats"] = {
-				["i:14344"] = 2,
-				["i:38682"] = 1,
 				["i:16204"] = 4,
+				["i:38682"] = 1,
+				["i:14344"] = 2,
 				["i:16202"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Healing Power",
+			["itemString"] = "i:38882",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38882",
+			["name"] = "Healing Power",
+		},
+		[194727] = {
+			["mats"] = {
+				["i:124113"] = 110,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Dreadleather Bindings",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128891",
 		},
 		[158893] = {
 			["mats"] = {
@@ -3700,12 +3749,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Haste",
+			["itemString"] = "i:110625",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110625",
+			["name"] = "Breath of Haste",
 		},
 		[27950] = {
 			["mats"] = {
@@ -3714,55 +3763,54 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Fortitude",
+			["itemString"] = "i:38909",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38909",
+			["name"] = "Fortitude",
 		},
 		[27958] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:34054"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Mana",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:38912",
-		},
-		[104401] = {
-			["mats"] = {
-				["i:74247"] = 2,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Greater Protection",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74711",
+			["name"] = "Exceptional Mana",
 		},
-		[7771] = {
+		[158907] = {
 			["mats"] = {
-				["i:10939"] = 1,
+				["i:111245"] = 1,
 				["i:38682"] = 1,
-				["i:10940"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Protection",
+			["itemString"] = "i:110617",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38775",
+			["name"] = "Breath of Critical Strike",
+		},
+		[7863] = {
+			["mats"] = {
+				["i:10940"] = 8,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38785",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Minor Stamina",
 		},
 		[27982] = {
 			["mats"] = {
@@ -3775,40 +3823,40 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Soulfrost",
+			["itemString"] = "i:38924",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38924",
+			["name"] = "Soulfrost",
 		},
-		[158914] = {
+		[104409] = {
 			["mats"] = {
-				["i:113588"] = 4,
-				["i:113262"] = 3,
+				["i:74247"] = 2,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Critical Strike",
+			["itemString"] = "i:74717",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110638",
+			["name"] = "Blurred Speed",
 		},
-		[202853] = {
+		[104401] = {
 			["mats"] = {
-				["i:124437"] = 1,
+				["i:74247"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "First Aid",
-			["itemString"] = "i:133940",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74711",
 			["players"] = {
-				["Demonpunter"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Silkweave Bandage",
+			["name"] = "Greater Protection",
 		},
 		[158894] = {
 			["mats"] = {
@@ -3817,12 +3865,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Mastery",
+			["itemString"] = "i:110626",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110626",
+			["name"] = "Breath of Mastery",
 		},
 		[161002] = {
 			["mats"] = {
@@ -3830,28 +3878,28 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Cooking",
-			["itemString"] = "i:111456",
+			["name"] = "Grilled Saberfish",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Grilled Saberfish",
+			["itemString"] = "i:111456",
 		},
 		[7788] = {
 			["mats"] = {
-				["i:10940"] = 2,
+				["i:10978"] = 1,
 				["i:38682"] = 1,
 				["i:10939"] = 1,
-				["i:10978"] = 1,
+				["i:10940"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Striking",
+			["itemString"] = "i:38780",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38780",
+			["name"] = "Minor Striking",
 		},
 		[74230] = {
 			["mats"] = {
@@ -3861,12 +3909,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Critical Strike",
+			["itemString"] = "i:52764",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52764",
+			["name"] = "Critical Strike",
 		},
 		[102698] = {
 			["mats"] = {
@@ -3874,40 +3922,40 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "First Aid",
-			["itemString"] = "i:72986",
+			["name"] = "Heavy Windwool Bandage",
 			["players"] = {
 				["Demonpunter"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Heavy Windwool Bandage",
+			["itemString"] = "i:72986",
 		},
-		[10097] = {
+		[161001] = {
 			["mats"] = {
-				["i:3858"] = 1,
+				["i:109137"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Mining",
-			["itemString"] = "i:3860",
+			["profession"] = "Cooking",
+			["name"] = "Saberfish Broth",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mithril Bar",
+			["itemString"] = "i:111455",
 		},
-		[13917] = {
+		[190875] = {
 			["mats"] = {
-				["i:11174"] = 2,
+				["i:124441"] = 20,
 				["i:38682"] = 1,
-				["i:11175"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Mana",
+			["itemString"] = "i:128546",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38841",
+			["name"] = "Word of Agility",
 		},
 		[2881] = {
 			["mats"] = {
@@ -3915,12 +3963,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:2318",
+			["name"] = "Light Leather",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Leather",
+			["itemString"] = "i:2318",
 		},
 		[47900] = {
 			["mats"] = {
@@ -3930,42 +3978,40 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Super Health",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:39005",
-		},
-		[64579] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:34054"] = 40,
-				["i:34057"] = 4,
-				["i:36918"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Blood Draining",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:46098",
+			["name"] = "Super Health",
 		},
-		[104416] = {
+		[28027] = {
 			["mats"] = {
-				["i:74249"] = 4,
-				["i:38682"] = 1,
+				["i:22449"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Haste",
+			["itemString"] = "i:22460",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74719",
+			["name"] = "Prismatic Sphere",
+		},
+		[74199] = {
+			["mats"] = {
+				["i:52719"] = 1,
+				["i:38682"] = 1,
+				["i:52555"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52750",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Haste",
 		},
 		[201500] = {
 			["mats"] = {
@@ -3975,70 +4021,71 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 5,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133565",
+			["name"] = "Leybeque Ribs",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Leybeque Ribs",
+			["itemString"] = "i:133565",
 		},
-		[27971] = {
+		[3761] = {
 			["mats"] = {
-				["i:22445"] = 40,
-				["i:22449"] = 4,
-				["i:38682"] = 1,
+				["i:2320"] = 4,
+				["i:4231"] = 3,
+				["i:2318"] = 6,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Savagery",
+			["profession"] = "Leatherworking",
+			["name"] = "Fine Leather Tunic",
 			["players"] = {
-				["Thedrin"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38919",
+			["itemString"] = "i:4243",
 		},
-		[190868] = {
+		[194723] = {
+			["mats"] = {
+				["i:124116"] = 2,
+				["i:130180"] = 3,
+				["i:124113"] = 16,
+				["i:124124"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Dreadleather Mask",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128887",
+		},
+		[190866] = {
 			["mats"] = {
 				["i:124440"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Mastery",
+			["itemString"] = "i:128537",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128539",
+			["name"] = "Word of Critical Strike",
 		},
-		[23801] = {
+		[7457] = {
 			["mats"] = {
-				["i:16202"] = 4,
+				["i:10940"] = 3,
 				["i:38682"] = 1,
-				["i:16204"] = 4,
-				["i:7080"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Argent Versatility",
+			["itemString"] = "i:38771",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38881",
-		},
-		[69412] = {
-			["mats"] = {
-				["i:34057"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Essence or Dust",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:89738",
+			["name"] = "Minor Stamina",
 		},
 		[158896] = {
 			["mats"] = {
@@ -4047,12 +4094,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Versatility",
+			["itemString"] = "i:110628",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110628",
+			["name"] = "Breath of Versatility",
 		},
 		[194730] = {
 			["mats"] = {
@@ -4062,12 +4109,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128888",
+			["name"] = "Dreadleather Pants",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Pants",
+			["itemString"] = "i:128888",
 		},
 		[25084] = {
 			["mats"] = {
@@ -4078,12 +4125,68 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Subtlety",
+			["itemString"] = "i:38894",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38894",
+			["name"] = "Subtlety",
+		},
+		[33991] = {
+			["mats"] = {
+				["i:22445"] = 2,
+				["i:38682"] = 1,
+				["i:22447"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38929",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Versatility Prime",
+		},
+		[158879] = {
+			["mats"] = {
+				["i:111245"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110633",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Breath of Mastery",
+		},
+		[3919] = {
+			["mats"] = {
+				["i:2589"] = 1,
+				["i:4357"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Engineering",
+			["itemString"] = "i:4358",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Rough Dynamite",
+		},
+		[3918] = {
+			["mats"] = {
+				["i:2835"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Engineering",
+			["itemString"] = "i:4357",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Rough Blasting Powder",
 		},
 		[62959] = {
 			["mats"] = {
@@ -4093,68 +4196,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Spellpower",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:45060",
-		},
-		[3919] = {
-			["mats"] = {
-				["i:4357"] = 1,
-				["i:2589"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Engineering",
-			["name"] = "Rough Dynamite",
-			["players"] = {
-				["Minidrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:4358",
-		},
-		[159672] = {
-			["mats"] = {
-				["i:113588"] = 15,
-				["i:113262"] = 10,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Mark of the Frostwolf",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:112165",
-		},
-		[3918] = {
-			["mats"] = {
-				["i:2835"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Engineering",
-			["name"] = "Rough Blasting Powder",
-			["players"] = {
-				["Minidrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:4357",
-		},
-		[25124] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:10940"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Minor Wizard Oil",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:20744",
+			["name"] = "Spellpower",
 		},
 		[74211] = {
 			["mats"] = {
@@ -4165,12 +4212,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Elemental Slayer",
+			["itemString"] = "i:52755",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52755",
+			["name"] = "Elemental Slayer",
 		},
 		[104392] = {
 			["mats"] = {
@@ -4180,12 +4227,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Super Resilience",
+			["itemString"] = "i:74706",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74706",
+			["name"] = "Super Resilience",
 		},
 		[44510] = {
 			["mats"] = {
@@ -4195,12 +4242,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Versatility",
+			["itemString"] = "i:38963",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38963",
+			["name"] = "Exceptional Versatility",
 		},
 		[62256] = {
 			["mats"] = {
@@ -4210,26 +4257,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Stamina",
+			["itemString"] = "i:44947",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44947",
+			["name"] = "Major Stamina",
 		},
-		[13622] = {
+		[27899] = {
 			["mats"] = {
-				["i:11082"] = 2,
+				["i:22445"] = 6,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Intellect",
+			["itemString"] = "i:38897",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38803",
+			["name"] = "Brawn",
 		},
 		[42615] = {
 			["mats"] = {
@@ -4237,26 +4284,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 3,
 			["profession"] = "Enchanting",
-			["name"] = "Small Prismatic Shard",
+			["itemString"] = "i:22448",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:22448",
+			["name"] = "Small Prismatic Shard",
 		},
-		[20028] = {
+		[60616] = {
 			["mats"] = {
-				["i:16204"] = 8,
+				["i:34054"] = 4,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Mana",
+			["itemString"] = "i:38971",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38867",
+			["name"] = "Assault",
 		},
 		[196648] = {
 			["mats"] = {
@@ -4264,68 +4311,67 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:131746",
+			["name"] = "Stonehide Leather Barding",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Stonehide Leather Barding",
+			["itemString"] = "i:131746",
 		},
-		[60616] = {
+		[171261] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:34054"] = 4,
+				["i:110609"] = 50,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Assault",
+			["profession"] = "Leatherworking",
+			["name"] = "Journeying Robes",
 			["players"] = {
-				["Thedrin"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38971",
+			["itemString"] = "i:116165",
 		},
 		[13640] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:11083"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Health",
+			["itemString"] = "i:38808",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38808",
+			["name"] = "Greater Health",
 		},
 		[13644] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:11083"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Stamina",
+			["itemString"] = "i:38810",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38810",
+			["name"] = "Lesser Stamina",
 		},
 		[13648] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:11083"] = 6,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Stamina",
+			["itemString"] = "i:38812",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38812",
+			["name"] = "Stamina",
 		},
 		[116497] = {
 			["mats"] = {
@@ -4333,12 +4379,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mysterious Essence",
+			["itemString"] = "i:74250",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74250",
+			["name"] = "Mysterious Essence",
+		},
+		[158899] = {
+			["mats"] = {
+				["i:113261"] = 3,
+				["i:113588"] = 4,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110645",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Gift of Critical Strike",
 		},
 		[194733] = {
 			["mats"] = {
@@ -4347,26 +4408,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128885",
+			["name"] = "Dreadleather Footpads",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Footpads",
-		},
-		[104393] = {
-			["mats"] = {
-				["i:74249"] = 4,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Mighty Versatility",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74707",
+			["itemString"] = "i:128885",
 		},
 		[9065] = {
 			["mats"] = {
@@ -4375,12 +4422,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7281",
+			["name"] = "Light Leather Bracers",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Leather Bracers",
+			["itemString"] = "i:7281",
 		},
 		[74212] = {
 			["mats"] = {
@@ -4390,12 +4437,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Strength",
+			["itemString"] = "i:52756",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52756",
+			["name"] = "Exceptional Strength",
 		},
 		[29356] = {
 			["mats"] = {
@@ -4403,12 +4450,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Mining",
-			["itemString"] = "i:23445",
+			["name"] = "Fel Iron Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fel Iron Bar",
+			["itemString"] = "i:23445",
 		},
 		[104425] = {
 			["mats"] = {
@@ -4418,42 +4465,29 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Windsong",
+			["itemString"] = "i:74723",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74723",
+			["name"] = "Windsong",
 		},
-		[3770] = {
+		[217650] = {
 			["mats"] = {
-				["i:2321"] = 2,
-				["i:3389"] = 2,
-				["i:3182"] = 2,
-				["i:2319"] = 4,
-				["i:4233"] = 2,
+				["i:76139"] = 2,
+				["i:74248"] = 10,
+				["i:39354"] = 3,
+				["i:76141"] = 2,
+				["i:76140"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4253",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138793",
 			["players"] = {
-				["Redsauce"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Toughened Leather Gloves",
-		},
-		[16153] = {
-			["mats"] = {
-				["i:10620"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Mining",
-			["itemString"] = "i:12359",
-			["players"] = {
-				["Demonpunter"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Thorium Bar",
+			["name"] = "Tome of Illusions: Pandaria",
 		},
 		[104338] = {
 			["mats"] = {
@@ -4462,41 +4496,60 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mastery",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:74700",
-		},
-		[63746] = {
-			["mats"] = {
-				["i:11174"] = 1,
-				["i:38682"] = 1,
-				["i:11137"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Lesser Accuracy",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:45628",
+			["name"] = "Mastery",
 		},
-		[44484] = {
+		[74236] = {
 			["mats"] = {
+				["i:52719"] = 2,
 				["i:38682"] = 1,
-				["i:34054"] = 12,
+				["i:52555"] = 2,
+				["i:58094"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Haste",
+			["itemString"] = "i:52769",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38951",
+			["name"] = "Precision",
+		},
+		[13700] = {
+			["mats"] = {
+				["i:11137"] = 2,
+				["i:11139"] = 1,
+				["i:11135"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38824",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Stats",
+		},
+		[13941] = {
+			["mats"] = {
+				["i:11178"] = 1,
+				["i:38682"] = 1,
+				["i:11176"] = 3,
+				["i:11175"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38847",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Stats",
 		},
 		[158900] = {
 			["mats"] = {
@@ -4506,58 +4559,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Haste",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:110646",
-		},
-		[201505] = {
-			["mats"] = {
-				["i:124109"] = 5,
-				["i:133565"] = 1,
-				["i:133588"] = 3,
-				["i:133589"] = 2,
-				["i:124118"] = 5,
-			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133570",
-			["players"] = {
-				["Demonpunter"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "The Hungry Magister",
-		},
-		[194798] = {
-			["mats"] = {
-				["i:124440"] = 8,
-				["i:124124"] = 3,
-				["i:124115"] = 24,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:128905",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Gravenscale Spaulders",
-		},
-		[44500] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:34054"] = 9,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Superior Agility",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38959",
+			["name"] = "Gift of Haste",
 		},
 		[17180] = {
 			["mats"] = {
@@ -4566,26 +4573,53 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Enchanted Thorium Bar",
+			["itemString"] = "i:12655",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:12655",
+			["name"] = "Enchanted Thorium Bar",
 		},
-		[44582] = {
+		[44484] = {
 			["mats"] = {
+				["i:34054"] = 12,
 				["i:38682"] = 1,
-				["i:34054"] = 15,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Power",
+			["itemString"] = "i:38951",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38973",
+			["name"] = "Haste",
+		},
+		[44500] = {
+			["mats"] = {
+				["i:34054"] = 9,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38959",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Superior Agility",
+		},
+		[116498] = {
+			["mats"] = {
+				["i:74250"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74247",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ethereal Shard",
 		},
 		[130758] = {
 			["mats"] = {
@@ -4595,12 +4629,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Parry",
+			["itemString"] = "i:89737",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:89737",
+			["name"] = "Greater Parry",
 		},
 		[74132] = {
 			["mats"] = {
@@ -4610,12 +4644,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mastery",
+			["itemString"] = "i:52687",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52687",
+			["name"] = "Mastery",
+		},
+		[158901] = {
+			["mats"] = {
+				["i:113263"] = 3,
+				["i:113588"] = 4,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110647",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Gift of Mastery",
 		},
 		[74213] = {
 			["mats"] = {
@@ -4625,12 +4674,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Agility",
+			["itemString"] = "i:52757",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52757",
+			["name"] = "Major Agility",
 		},
 		[27951] = {
 			["mats"] = {
@@ -4640,29 +4689,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Dexterity",
+			["itemString"] = "i:37603",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:37603",
+			["name"] = "Dexterity",
 		},
-		[201506] = {
+		[158903] = {
 			["mats"] = {
-				["i:124104"] = 5,
-				["i:124102"] = 5,
-				["i:124101"] = 5,
-				["i:133566"] = 1,
-				["i:124103"] = 5,
+				["i:113261"] = 3,
+				["i:113588"] = 4,
+				["i:38682"] = 1,
 			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133571",
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110649",
 			["players"] = {
-				["Demonpunter"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Azshari Salad",
+			["name"] = "Gift of Versatility",
 		},
 		[9145] = {
 			["mats"] = {
@@ -4672,27 +4719,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:7348",
+			["name"] = "Fletcher's Gloves",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fletcher's Gloves",
+			["itemString"] = "i:7348",
 		},
-		[44593] = {
+		[60668] = {
 			["mats"] = {
-				["i:34054"] = 4,
-				["i:34055"] = 2,
+				["i:34054"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Versatility",
+			["itemString"] = "i:44458",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38980",
+			["name"] = "Crusher",
 		},
 		[47051] = {
 			["mats"] = {
@@ -4702,103 +4748,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Dodge",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:39000",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Dodge",
 		},
-		[74214] = {
+		[74238] = {
 			["mats"] = {
-				["i:52555"] = 9,
+				["i:52719"] = 3,
 				["i:38682"] = 1,
+				["i:52555"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mighty Resilience",
+			["itemString"] = "i:52771",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52758",
-		},
-		[118239] = {
-			["mats"] = {
-				["i:74248"] = 1,
-			},
-			["numResult"] = 2,
-			["profession"] = "Enchanting",
-			["name"] = "Ethereal Shard",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74247",
-		},
-		[74235] = {
-			["mats"] = {
-				["i:52719"] = 4,
-				["i:38682"] = 1,
-				["i:52555"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Superior Intellect",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:52768",
-		},
-		[33993] = {
-			["mats"] = {
-				["i:22445"] = 4,
-				["i:38682"] = 1,
-				["i:22447"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Blasting",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38931",
-		},
-		[158884] = {
-			["mats"] = {
-				["i:113264"] = 3,
-				["i:113588"] = 4,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Gift of Critical Strike",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:110652",
-		},
-		[177043] = {
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Thedrin"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:109693"] = 3,
-			},
-			["itemString"] = "i:119293",
-			["profession"] = "Enchanting",
-			["queued"] = 0,
-			["name"] = "Secret of Draenor Enchanting",
+			["name"] = "Mastery",
 		},
 		[116499] = {
 			["players"] = {
@@ -4819,20 +4789,99 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Sha Crystal",
 		},
-		[74238] = {
+		[118239] = {
 			["mats"] = {
-				["i:52719"] = 3,
-				["i:38682"] = 1,
-				["i:52555"] = 10,
+				["i:74248"] = 1,
 			},
-			["numResult"] = 1,
+			["numResult"] = 2,
 			["profession"] = "Enchanting",
-			["name"] = "Mastery",
+			["itemString"] = "i:74247",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52771",
+			["name"] = "Ethereal Shard",
+		},
+		[33993] = {
+			["mats"] = {
+				["i:22445"] = 4,
+				["i:38682"] = 1,
+				["i:22447"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38931",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Blasting",
+		},
+		[158884] = {
+			["mats"] = {
+				["i:113264"] = 3,
+				["i:113588"] = 4,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110652",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Gift of Critical Strike",
+		},
+		[74235] = {
+			["mats"] = {
+				["i:52719"] = 4,
+				["i:38682"] = 1,
+				["i:52555"] = 6,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52768",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Superior Intellect",
+		},
+		[177043] = {
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Thedrin"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:109693"] = 3,
+			},
+			["itemString"] = "i:119293",
+			["profession"] = "Enchanting",
+			["queued"] = 0,
+			["name"] = "Secret of Draenor Enchanting",
+		},
+		[201506] = {
+			["mats"] = {
+				["i:124104"] = 5,
+				["i:124101"] = 5,
+				["i:124102"] = 5,
+				["i:133566"] = 1,
+				["i:124103"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["name"] = "Azshari Salad",
+			["players"] = {
+				["Demonpunter"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:133571",
 		},
 		[14810] = {
 			["mats"] = {
@@ -4842,41 +4891,41 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Mystic Wand",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:11290",
-		},
-		[60668] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:34054"] = 15,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Crusher",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44458",
+			["name"] = "Greater Mystic Wand",
 		},
-		[158903] = {
+		[44593] = {
 			["mats"] = {
-				["i:113261"] = 3,
+				["i:34054"] = 4,
+				["i:34055"] = 2,
 				["i:38682"] = 1,
-				["i:113588"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Versatility",
+			["itemString"] = "i:38980",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110649",
+			["name"] = "Major Versatility",
+		},
+		[74214] = {
+			["mats"] = {
+				["i:52555"] = 9,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52758",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mighty Resilience",
 		},
 		[104395] = {
 			["mats"] = {
@@ -4886,87 +4935,88 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Glorious Stats",
+			["itemString"] = "i:74708",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74708",
+			["name"] = "Glorious Stats",
 		},
 		[7421] = {
 			["mats"] = {
-				["i:10938"] = 1,
 				["i:6217"] = 1,
+				["i:10938"] = 1,
 				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Runed Copper Rod",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:6218",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Runed Copper Rod",
 		},
-		[158901] = {
+		[44582] = {
 			["mats"] = {
-				["i:113263"] = 3,
-				["i:113588"] = 4,
+				["i:34054"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Gift of Mastery",
+			["itemString"] = "i:38973",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110647",
+			["name"] = "Minor Power",
 		},
-		[13941] = {
+		[201505] = {
 			["mats"] = {
+				["i:124109"] = 5,
+				["i:133565"] = 1,
+				["i:133588"] = 3,
+				["i:133589"] = 2,
+				["i:124118"] = 5,
+			},
+			["numResult"] = 5,
+			["profession"] = "Cooking",
+			["name"] = "The Hungry Magister",
+			["players"] = {
+				["Demonpunter"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:133570",
+		},
+		[194798] = {
+			["mats"] = {
+				["i:124440"] = 8,
+				["i:124124"] = 3,
+				["i:124115"] = 24,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Gravenscale Spaulders",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128905",
+		},
+		[63746] = {
+			["mats"] = {
+				["i:11174"] = 1,
 				["i:38682"] = 1,
-				["i:11178"] = 1,
-				["i:11176"] = 3,
-				["i:11175"] = 2,
+				["i:11137"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Stats",
+			["itemString"] = "i:45628",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38847",
-		},
-		[74236] = {
-			["mats"] = {
-				["i:52719"] = 2,
-				["i:38682"] = 1,
-				["i:52555"] = 2,
-				["i:58094"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Precision",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:52769",
-		},
-		[116498] = {
-			["mats"] = {
-				["i:74250"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Ethereal Shard",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74247",
+			["name"] = "Lesser Accuracy",
 		},
 		[35750] = {
 			["mats"] = {
@@ -4974,45 +5024,42 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 10,
 			["profession"] = "Mining",
-			["itemString"] = "i:22573",
+			["name"] = "Mote of Earth",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mote of Earth",
+			["itemString"] = "i:22573",
 		},
-		[13700] = {
+		[16153] = {
 			["mats"] = {
-				["i:11137"] = 2,
-				["i:11139"] = 1,
-				["i:11135"] = 2,
-				["i:38682"] = 1,
+				["i:10620"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Lesser Stats",
+			["profession"] = "Mining",
+			["name"] = "Thorium Bar",
 			["players"] = {
-				["Thedrin"] = true,
+				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38824",
+			["itemString"] = "i:12359",
 		},
-		[217650] = {
+		[3770] = {
 			["mats"] = {
-				["i:76139"] = 2,
-				["i:74248"] = 10,
-				["i:76140"] = 2,
-				["i:76141"] = 2,
-				["i:39354"] = 3,
+				["i:2321"] = 2,
+				["i:3389"] = 2,
+				["i:3182"] = 2,
+				["i:2319"] = 4,
+				["i:4233"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Tome of Illusions: Pandaria",
+			["profession"] = "Leatherworking",
+			["name"] = "Toughened Leather Gloves",
 			["players"] = {
-				["Thedrin"] = true,
+				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:138793",
+			["itemString"] = "i:4253",
 		},
 		[13836] = {
 			["mats"] = {
@@ -5021,69 +5068,69 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Stamina",
+			["itemString"] = "i:38830",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38830",
+			["name"] = "Stamina",
 		},
-		[171261] = {
+		[104393] = {
 			["mats"] = {
-				["i:110609"] = 50,
+				["i:74249"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:116165",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74707",
 			["players"] = {
-				["Redsauce"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Journeying Robes",
+			["name"] = "Mighty Versatility",
 		},
 		[159671] = {
 			["mats"] = {
 				["i:113261"] = 10,
-				["i:38682"] = 1,
 				["i:113588"] = 15,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mark of Warsong",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:112164",
-		},
-		[158899] = {
-			["mats"] = {
-				["i:113261"] = 3,
-				["i:38682"] = 1,
-				["i:113588"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Gift of Critical Strike",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110645",
+			["name"] = "Mark of Warsong",
 		},
-		[27899] = {
+		[20028] = {
 			["mats"] = {
-				["i:22445"] = 6,
+				["i:16204"] = 8,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Brawn",
+			["itemString"] = "i:38867",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38897",
+			["name"] = "Major Mana",
+		},
+		[13622] = {
+			["mats"] = {
+				["i:11082"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38803",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Intellect",
 		},
 		[25125] = {
 			["mats"] = {
@@ -5092,12 +5139,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Mana Oil",
+			["itemString"] = "i:20745",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:20745",
+			["name"] = "Minor Mana Oil",
 		},
 		[20023] = {
 			["mats"] = {
@@ -5107,41 +5154,39 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Greater Agility",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:38863",
-		},
-		[158879] = {
-			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Breath of Mastery",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110633",
+			["name"] = "Greater Agility",
 		},
-		[33991] = {
+		[25124] = {
 			["mats"] = {
-				["i:22445"] = 2,
-				["i:38682"] = 1,
-				["i:22447"] = 2,
+				["i:3371"] = 1,
+				["i:10940"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Versatility Prime",
+			["itemString"] = "i:20744",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38929",
+			["name"] = "Minor Wizard Oil",
+		},
+		[69412] = {
+			["mats"] = {
+				["i:34057"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:89738",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Essence or Dust",
 		},
 		[44629] = {
 			["mats"] = {
@@ -5151,141 +5196,145 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Exceptional Spellpower",
+			["itemString"] = "i:38991",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38991",
+			["name"] = "Exceptional Spellpower",
 		},
-		[7457] = {
+		[159672] = {
 			["mats"] = {
+				["i:113588"] = 15,
+				["i:113262"] = 10,
 				["i:38682"] = 1,
-				["i:10940"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Stamina",
+			["itemString"] = "i:112165",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38771",
+			["name"] = "Mark of the Frostwolf",
 		},
-		[190866] = {
+		[23801] = {
+			["mats"] = {
+				["i:7080"] = 2,
+				["i:38682"] = 1,
+				["i:16204"] = 4,
+				["i:16202"] = 4,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38881",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Argent Versatility",
+		},
+		[190868] = {
 			["mats"] = {
 				["i:124440"] = 15,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Critical Strike",
+			["itemString"] = "i:128539",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128537",
+			["name"] = "Word of Mastery",
 		},
-		[194723] = {
+		[27971] = {
 			["mats"] = {
-				["i:124116"] = 2,
-				["i:130180"] = 3,
-				["i:124113"] = 16,
-				["i:124124"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:128887",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Dreadleather Mask",
-		},
-		[3761] = {
-			["mats"] = {
-				["i:2318"] = 6,
-				["i:2320"] = 4,
-				["i:4231"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:4243",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Fine Leather Tunic",
-		},
-		[74199] = {
-			["mats"] = {
-				["i:52719"] = 1,
-				["i:38682"] = 1,
-				["i:52555"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Haste",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:52750",
-		},
-		[28027] = {
-			["mats"] = {
+				["i:22445"] = 40,
 				["i:22449"] = 4,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Prismatic Sphere",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:22460",
-		},
-		[190875] = {
-			["mats"] = {
 				["i:38682"] = 1,
-				["i:124441"] = 20,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Agility",
+			["itemString"] = "i:38919",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128546",
+			["name"] = "Savagery",
 		},
-		[161001] = {
+		[104416] = {
 			["mats"] = {
-				["i:109137"] = 5,
+				["i:74249"] = 4,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Cooking",
-			["itemString"] = "i:111455",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74719",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Haste",
+		},
+		[64579] = {
+			["mats"] = {
+				["i:34054"] = 40,
+				["i:38682"] = 1,
+				["i:34057"] = 4,
+				["i:36918"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:46098",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Blood Draining",
+		},
+		[13917] = {
+			["mats"] = {
+				["i:11174"] = 2,
+				["i:38682"] = 1,
+				["i:11175"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38841",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Superior Mana",
+		},
+		[10097] = {
+			["mats"] = {
+				["i:3858"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Mining",
+			["name"] = "Mithril Bar",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Saberfish Broth",
+			["itemString"] = "i:3860",
 		},
 		[159673] = {
 			["mats"] = {
 				["i:113261"] = 5,
-				["i:38682"] = 1,
 				["i:113588"] = 3,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mark of Shadowmoon",
+			["itemString"] = "i:112115",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:112115",
+			["name"] = "Mark of Shadowmoon",
 		},
 		[176089] = {
 			["players"] = {
@@ -5306,47 +5355,49 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Secret of Draenor Leatherworking",
 		},
-		[104409] = {
+		[158914] = {
 			["mats"] = {
-				["i:74247"] = 2,
+				["i:113588"] = 4,
+				["i:113262"] = 3,
 				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Blurred Speed",
+			["itemString"] = "i:110638",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74717",
+			["name"] = "Gift of Critical Strike",
 		},
-		[7863] = {
+		[7771] = {
 			["mats"] = {
+				["i:10939"] = 1,
 				["i:38682"] = 1,
-				["i:10940"] = 8,
+				["i:10940"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Stamina",
+			["itemString"] = "i:38775",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38785",
+			["name"] = "Minor Protection",
 		},
-		[158907] = {
+		[202853] = {
 			["mats"] = {
-				["i:111245"] = 1,
-				["i:38682"] = 1,
+				["i:124437"] = 1,
 			},
 			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Breath of Critical Strike",
+			["profession"] = "First Aid",
+			["name"] = "Silkweave Bandage",
 			["players"] = {
-				["Thedrin"] = true,
+				["Demonpunter"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110617",
+			["itemString"] = "i:133940",
 		},
 		[104397] = {
 			["mats"] = {
@@ -5356,40 +5407,42 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Superior Stamina",
+			["itemString"] = "i:74709",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74709",
+			["name"] = "Superior Stamina",
 		},
 		[13421] = {
 			["mats"] = {
 				["i:38682"] = 1,
-				["i:10940"] = 6,
 				["i:10978"] = 1,
+				["i:10940"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Protection",
+			["itemString"] = "i:38790",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38790",
+			["name"] = "Lesser Protection",
 		},
-		[194727] = {
+		[104385] = {
 			["mats"] = {
-				["i:124113"] = 110,
+				["i:38682"] = 1,
+				["i:74249"] = 8,
+				["i:74250"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:128891",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74701",
 			["players"] = {
-				["Redsauce"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Bindings",
+			["name"] = "Major Dodge",
 		},
 		[159674] = {
 			["mats"] = {
@@ -5399,27 +5452,27 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mark of Blackrock",
+			["itemString"] = "i:112160",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:112160",
+			["name"] = "Mark of Blackrock",
 		},
-		[7428] = {
+		[158885] = {
 			["mats"] = {
+				["i:113263"] = 3,
+				["i:113588"] = 4,
 				["i:38682"] = 1,
-				["i:10938"] = 1,
-				["i:10940"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Dodge",
+			["itemString"] = "i:110653",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38768",
+			["name"] = "Gift of Haste",
 		},
 		[13948] = {
 			["mats"] = {
@@ -5429,12 +5482,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Minor Haste",
+			["itemString"] = "i:38851",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38851",
+			["name"] = "Minor Haste",
 		},
 		[35751] = {
 			["mats"] = {
@@ -5442,12 +5495,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 10,
 			["profession"] = "Mining",
-			["itemString"] = "i:22574",
+			["name"] = "Mote of Fire",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mote of Fire",
+			["itemString"] = "i:22574",
 		},
 		[158908] = {
 			["mats"] = {
@@ -5456,167 +5509,173 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Haste",
+			["itemString"] = "i:110618",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110618",
+			["name"] = "Breath of Haste",
 		},
-		[201496] = {
+		[217637] = {
 			["mats"] = {
-				["i:124108"] = 5,
-				["i:133590"] = 5,
-			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133561",
-			["players"] = {
-				["Demonpunter"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Deep-Fried Mossgill",
-		},
-		[194724] = {
-			["mats"] = {
-				["i:124113"] = 150,
+				["i:14344"] = 10,
+				["i:7078"] = 5,
+				["i:12808"] = 5,
+				["i:39354"] = 3,
+				["i:7080"] = 5,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:128886",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:138787",
 			["players"] = {
-				["Redsauce"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreadleather Gloves",
+			["name"] = "Tome of Illusions: Azeroth",
+		},
+		[13695] = {
+			["mats"] = {
+				["i:11137"] = 4,
+				["i:11139"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38822",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Impact",
 		},
 		[201513] = {
 			["mats"] = {
-				["i:133591"] = 1,
 				["i:124118"] = 5,
+				["i:133591"] = 1,
 			},
 			["numResult"] = 5,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133576",
-			["players"] = {
-				["Demonpunter"] = true,
-			},
-			["queued"] = 0,
 			["name"] = "Bear Tartare",
-		},
-		[226105] = {
-			["mats"] = {
-				["i:2318"] = 3,
-				["i:2320"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:132490",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Light Scale Gloves",
-		},
-		[3760] = {
-			["mats"] = {
-				["i:4234"] = 5,
-				["i:2321"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:3719",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Hillman's Cloak",
-		},
-		[34001] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:22447"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Major Intellect",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38937",
-		},
-		[74207] = {
-			["mats"] = {
-				["i:52719"] = 1,
-				["i:52327"] = 15,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Protection",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:52754",
-		},
-		[27944] = {
-			["mats"] = {
-				["i:22452"] = 10,
-				["i:38682"] = 1,
-				["i:22445"] = 6,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Lesser Dodge",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38904",
-		},
-		[104398] = {
-			["mats"] = {
-				["i:74249"] = 7,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Accuracy",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74710",
-		},
-		[104430] = {
-			["mats"] = {
-				["i:38682"] = 1,
-				["i:74250"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Elemental Force",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:74725",
-		},
-		[201514] = {
-			["mats"] = {
-				["i:133593"] = 1,
-				["i:124107"] = 5,
-			},
-			["numResult"] = 5,
-			["profession"] = "Cooking",
-			["itemString"] = "i:133577",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Fighter Chow",
+			["itemString"] = "i:133576",
+		},
+		[17181] = {
+			["mats"] = {
+				["i:8170"] = 1,
+				["i:16202"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:12810",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Enchanted Leather",
+		},
+		[194755] = {
+			["mats"] = {
+				["i:124115"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Battlebound Treads",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128893",
+		},
+		[74201] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:52555"] = 4,
+				["i:52718"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:52752",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Critical Strike",
+		},
+		[25126] = {
+			["mats"] = {
+				["i:11137"] = 3,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:20746",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Wizard Oil",
+		},
+		[158909] = {
+			["mats"] = {
+				["i:111245"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:110619",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Breath of Mastery",
+		},
+		[44598] = {
+			["mats"] = {
+				["i:34054"] = 12,
+				["i:34055"] = 1,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38984",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Haste",
+		},
+		[13485] = {
+			["mats"] = {
+				["i:38682"] = 1,
+				["i:10940"] = 4,
+				["i:10998"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38792",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Lesser Versatility",
+		},
+		[44630] = {
+			["mats"] = {
+				["i:34054"] = 6,
+				["i:34055"] = 2,
+				["i:38682"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38992",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Savagery",
 		},
 		[226106] = {
 			["mats"] = {
@@ -5625,12 +5684,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132491",
+			["name"] = "Light Scale Bracers",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Scale Bracers",
+			["itemString"] = "i:132491",
 		},
 		[27984] = {
 			["mats"] = {
@@ -5642,103 +5701,94 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Mongoose",
+			["itemString"] = "i:38925",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38925",
+			["name"] = "Mongoose",
 		},
 		[13501] = {
 			["mats"] = {
-				["i:38682"] = 1,
 				["i:11083"] = 2,
+				["i:38682"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Stamina",
+			["itemString"] = "i:38793",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:38793",
+			["name"] = "Lesser Stamina",
 		},
-		[201556] = {
+		[13746] = {
 			["mats"] = {
-				["i:124105"] = 1,
-				["i:124121"] = 5,
-				["i:133592"] = 10,
-				["i:129100"] = 20,
-				["i:133567"] = 1,
+				["i:11137"] = 3,
+				["i:38682"] = 1,
 			},
-			["numResult"] = 10,
+			["numResult"] = 1,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38825",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Greater Defense",
+		},
+		[20649] = {
+			["mats"] = {
+				["i:2319"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Heavy Leather",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:4234",
+		},
+		[194744] = {
+			["mats"] = {
+				["i:124115"] = 12,
+				["i:124439"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Battlebound Girdle",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:128898",
+		},
+		[7751] = {
+			["mats"] = {
+				["i:6291"] = 1,
+			},
+			["numResult"] = 1,
 			["profession"] = "Cooking",
-			["itemString"] = "i:133572",
+			["name"] = "Brilliant Smallfish",
 			["players"] = {
 				["Demonpunter"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Nightborne Delicacy Platter",
+			["itemString"] = "i:6290",
 		},
-		[74198] = {
+		[14293] = {
 			["mats"] = {
-				["i:38682"] = 1,
-				["i:52555"] = 4,
-				["i:52718"] = 1,
+				["i:4470"] = 1,
+				["i:10938"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Haste",
+			["itemString"] = "i:11287",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52749",
-		},
-		[33995] = {
-			["mats"] = {
-				["i:22446"] = 1,
-				["i:38682"] = 1,
-				["i:22445"] = 12,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Major Strength",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38933",
-		},
-		[173323] = {
-			["mats"] = {
-				["i:113264"] = 10,
-				["i:113588"] = 15,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Mark of Bleeding Hollow",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:118015",
-		},
-		[44592] = {
-			["mats"] = {
-				["i:34056"] = 1,
-				["i:34054"] = 2,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Exceptional Spellpower",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38979",
+			["name"] = "Lesser Magic Wand",
 		},
 		[226107] = {
 			["mats"] = {
@@ -5747,12 +5797,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132489",
+			["name"] = "Light Scale Belt",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Scale Belt",
+			["itemString"] = "i:132489",
 		},
 		[13529] = {
 			["mats"] = {
@@ -5762,26 +5812,25 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Lesser Impact",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
 			["itemString"] = "i:38796",
-		},
-		[74202] = {
-			["mats"] = {
-				["i:52555"] = 6,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Intellect",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:52753",
+			["name"] = "Lesser Impact",
+		},
+		[118237] = {
+			["mats"] = {
+				["i:74250"] = 1,
+			},
+			["numResult"] = 3,
+			["profession"] = "Enchanting",
+			["itemString"] = "i:74249",
+			["players"] = {
+				["Thedrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Spirit Dust",
 		},
 		[60663] = {
 			["mats"] = {
@@ -5791,12 +5840,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Major Agility",
+			["itemString"] = "i:44457",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:44457",
+			["name"] = "Major Agility",
 		},
 		[158911] = {
 			["mats"] = {
@@ -5805,12 +5854,12 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Breath of Versatility",
+			["itemString"] = "i:110621",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:110621",
+			["name"] = "Breath of Versatility",
 		},
 		[194745] = {
 			["mats"] = {
@@ -5818,98 +5867,142 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128897",
+			["name"] = "Battlebound Spaulders",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Battlebound Spaulders",
+			["itemString"] = "i:128897",
 		},
-		[104414] = {
+		[2159] = {
 			["mats"] = {
+				["i:2318"] = 10,
+				["i:2321"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Leatherworking",
+			["name"] = "Fine Leather Cloak",
+			["players"] = {
+				["Redsauce"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:2308",
+		},
+		[7420] = {
+			["mats"] = {
+				["i:10940"] = 1,
 				["i:38682"] = 1,
-				["i:74249"] = 4,
-				["i:74250"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Pandaren's Step",
+			["itemString"] = "i:38766",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:74718",
-		},
-		[2149] = {
-			["mats"] = {
-				["i:2318"] = 2,
-				["i:2320"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2302",
-			["players"] = {
-				["Redsauce"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Handstitched Leather Boots",
+			["name"] = "Minor Health",
 		},
 		[226108] = {
 			["mats"] = {
-				["i:2318"] = 6,
 				["i:2320"] = 4,
 				["i:4231"] = 3,
+				["i:2318"] = 6,
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:132487",
+			["name"] = "Light Scale Jerkin",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Light Scale Jerkin",
+			["itemString"] = "i:132487",
 		},
-		[190869] = {
+		[44383] = {
 			["mats"] = {
-				["i:124440"] = 15,
+				["i:22449"] = 1,
 				["i:38682"] = 1,
+				["i:22447"] = 4,
 			},
 			["numResult"] = 1,
 			["profession"] = "Enchanting",
-			["name"] = "Word of Versatility",
+			["itemString"] = "i:38949",
 			["players"] = {
 				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["itemString"] = "i:128540",
+			["name"] = "Resilience",
 		},
-		[2160] = {
+		[198966] = {
 			["mats"] = {
-				["i:2318"] = 8,
-				["i:2320"] = 4,
+				["i:136630"] = 1,
+				["i:124115"] = 50,
+				["i:136636"] = 2,
+				["i:136633"] = 2,
 			},
 			["numResult"] = 1,
-			["profession"] = "Leatherworking",
-			["itemString"] = "i:2300",
+			["profession"] = "Engineering",
+			["itemString"] = "i:132502",
 			["players"] = {
-				["Redsauce"] = true,
+				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Embossed Leather Vest",
+			["name"] = "Bolt-Action Headgun",
 		},
-		[3569] = {
+		[7745] = {
 			["mats"] = {
-				["i:3575"] = 1,
-				["i:3857"] = 1,
+				["i:38682"] = 1,
+				["i:10978"] = 1,
+				["i:10940"] = 4,
 			},
 			["numResult"] = 1,
-			["profession"] = "Mining",
-			["itemString"] = "i:3859",
+			["profession"] = "Enchanting",
+			["itemString"] = "i:38772",
 			["players"] = {
-				["Demonpunter"] = true,
+				["Thedrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Steel Bar",
+			["name"] = "Minor Impact",
+		},
+		[209501] = {
+			["mats"] = {
+				["i:124444"] = 2,
+				["i:124124"] = 8,
+				["i:124461"] = 12,
+			},
+			["numResult"] = 1,
+			["profession"] = "Engineering",
+			["itemString"] = "i:136687",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "\"The Felic\"",
+		},
+		[198982] = {
+			["mats"] = {
+				["i:123919"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Engineering",
+			["itemString"] = "i:132523",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Reaves Battery",
+		},
+		[45546] = {
+			["mats"] = {
+				["i:33470"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "First Aid",
+			["itemString"] = "i:34722",
+			["players"] = {
+				["Minidrin"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Heavy Frostweave Bandage",
 		},
 		[194759] = {
 			["mats"] = {
@@ -5917,126 +6010,88 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["numResult"] = 1,
 			["profession"] = "Leatherworking",
-			["itemString"] = "i:128907",
+			["name"] = "Gravenscale Armbands",
 			["players"] = {
 				["Redsauce"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gravenscale Armbands",
+			["itemString"] = "i:128907",
 		},
-		[198973] = {
+		[235775] = {
 			["mats"] = {
-				["i:123918"] = 2,
-				["i:136637"] = 30,
+				["i:132523"] = 1,
+				["i:123918"] = 75,
+				["i:124124"] = 15,
 			},
-			["numResult"] = 5,
+			["numResult"] = 1,
 			["profession"] = "Engineering",
-			["itemString"] = "i:132510",
+			["itemString"] = "i:144341",
 			["players"] = {
 				["Minidrin"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Gunpowder Charge",
-		},
-		[198984] = {
-			["mats"] = {
-				["i:132514"] = 5,
-				["i:123919"] = 80,
-			},
-			["numResult"] = 1,
-			["profession"] = "Engineering",
-			["itemString"] = "i:132525",
-			["players"] = {
-				["Minidrin"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Reaves Module: Repair Mode",
-		},
-		[44616] = {
-			["mats"] = {
-				["i:34054"] = 9,
-				["i:34055"] = 1,
-				["i:38682"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Enchanting",
-			["name"] = "Greater Stats",
-			["players"] = {
-				["Thedrin"] = true,
-			},
-			["queued"] = 0,
-			["itemString"] = "i:38987",
-		},
-		[198979] = {
-			["mats"] = {
-				["i:124106"] = 3,
-				["i:136632"] = 1,
-				["i:123918"] = 150,
-			},
-			["numResult"] = 1,
-			["profession"] = "Engineering",
-			["itemString"] = "i:132517",
-			["players"] = {
-				["Minidrin"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Intra-Dalaran Wormhole Generator",
+			["name"] = "Rechargeable Reaves Battery",
 		},
 	},
-	["g@ @profitPercent"] = 0,
+	["g@ @ignoreGuilds"] = {
+	},
 	["g@ @ignoreCharacters"] = {
 	},
-	["f@Alliance - Aerie Peak@buyAH"] = false,
-	["_hash"] = 15983053,
 	["g@ @frameQueueOpen"] = false,
-	["_currentProfile"] = {
-		["Demonpunter - Aerie Peak"] = "Default",
-		["Redsauce - Aerie Peak"] = "Default",
-		["Thedrin - Aerie Peak"] = "Default",
-		["Minidrin - Aerie Peak"] = "Default",
-	},
-	["f@Alliance - Aerie Peak@gathering"] = {
-		["availableMats"] = {
-		},
-		["extraMats"] = {
-		},
-		["shortItems"] = {
-		},
-		["gatheredMats"] = false,
-		["neededMats"] = {
-		},
-		["destroyingMats"] = {
-		},
-		["professions"] = {
-		},
-		["selectedSourceStatus"] = {
-		},
-		["sessionOptions"] = {
-		},
-		["selectedSources"] = {
-		},
-	},
-	["f@Alliance - Aerie Peak@inkTrade"] = false,
-	["f@Alliance - Aerie Peak@ignoreAlts"] = false,
+	["_hash"] = 15983053,
+	["f@Alliance - Aerie Peak@buyAH"] = false,
 	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
-	["g@ @queueSort"] = 1,
-	["g@ @ignoreCDCraftCost"] = true,
-	["g@ @showingDefaultFrame"] = true,
-	["f@Alliance - Aerie Peak@ignoreDECheckBox"] = false,
-	["f@Alliance - Aerie Peak@disableCheckBox"] = false,
-	["g@ @priceColumn"] = 1,
-	["g@ @helpPlatesShown"] = {
-		["gatheringFrame"] = true,
-		["profession"] = true,
+	["_currentProfile"] = {
+		["Minidrin - Aerie Peak"] = "Default",
+		["Redsauce - Aerie Peak"] = "Default",
+		["Demonpunter - Aerie Peak"] = "Default",
+		["Thedrin - Aerie Peak"] = "Default",
 	},
-	["f@Alliance - Aerie Peak@ignoreIntermediate"] = false,
-	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
 	["g@ @questSmartCrafting"] = true,
 	["f@Alliance - Aerie Peak@queueStatus"] = {
 		["collapsed"] = {
 		},
 	},
+	["f@Alliance - Aerie Peak@gathering"] = {
+		["selectedSources"] = {
+		},
+		["availableMats"] = {
+		},
+		["shortItems"] = {
+		},
+		["sessionOptions"] = {
+		},
+		["selectedSourceStatus"] = {
+		},
+		["destroyingMats"] = {
+		},
+		["professions"] = {
+		},
+		["neededMats"] = {
+		},
+		["gatheredMats"] = false,
+		["extraMats"] = {
+		},
+	},
+	["f@Alliance - Aerie Peak@inkTrade"] = false,
+	["g@ @ignoreCDCraftCost"] = true,
+	["g@ @priceColumn"] = 1,
+	["g@ @showingDefaultFrame"] = true,
+	["f@Alliance - Aerie Peak@disableCheckBox"] = false,
+	["f@Alliance - Aerie Peak@ignoreDECheckBox"] = false,
+	["g@ @helpPlatesShown"] = {
+		["profession"] = true,
+		["gatheringFrame"] = true,
+	},
+	["f@Alliance - Aerie Peak@ignoreIntermediate"] = false,
+	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["g@ @queueSort"] = 1,
+	["f@Alliance - Aerie Peak@ignoreAlts"] = false,
 	["f@Alliance - Aerie Peak@professionScanCache"] = {
+		["DemonpunterMining"] = {
+			["hash"] = 13072062,
+			["scanTime"] = 1494942076,
+		},
 		["DemonpunterHerbalism"] = {
 			["hash"] = 13506270,
 			["scanTime"] = 1494942079,
@@ -6053,17 +6108,17 @@ TradeSkillMaster_CraftingDB = {
 			["hash"] = 1368336,
 			["scanTime"] = 1494950619,
 		},
+		["MinidrinEngineering"] = {
+			["hash"] = 14289205,
+			["scanTime"] = 1495240749,
+		},
+		["MinidrinFirst Aid"] = {
+			["hash"] = 3473546,
+			["scanTime"] = 1495230531,
+		},
 		["ThedrinEnchanting"] = {
 			["hash"] = 8440482,
 			["scanTime"] = 1494950669,
-		},
-		["MinidrinEngineering"] = {
-			["hash"] = 9160817,
-			["scanTime"] = 1495205526,
-		},
-		["DemonpunterMining"] = {
-			["hash"] = 13072062,
-			["scanTime"] = 1494942076,
 		},
 	},
 	["f@Alliance - Aerie Peak@mats"] = {
@@ -6085,8 +6140,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:10620"] = {
 			["name"] = "Thorium Ore",
 		},
-		["i:124438"] = {
-			["name"] = "Unbroken Claw",
+		["i:3390"] = {
+			["name"] = "Elixir of Lesser Agility",
 		},
 		["i:21885"] = {
 			["name"] = "Primal Water",
@@ -6103,8 +6158,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:136629"] = {
 			["name"] = "Felgibber Shotgun",
 		},
-		["i:124116"] = {
-			["name"] = "Felhide",
+		["i:124106"] = {
+			["name"] = "Felwort",
 		},
 		["i:136638"] = {
 			["name"] = "True Iron Barrel",
@@ -6124,8 +6179,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:2997"] = {
 			["name"] = "Bolt of Woolen Cloth",
 		},
-		["i:133589"] = {
-			["name"] = "Dalapeño Pepper",
+		["i:124112"] = {
+			["name"] = "Black Barracuda",
 		},
 		["i:7911"] = {
 			["name"] = "Truesilver Ore",
@@ -6133,8 +6188,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:7909"] = {
 			["name"] = "Aquamarine",
 		},
-		["i:22452"] = {
-			["name"] = "Primal Earth",
+		["i:20725"] = {
+			["name"] = "Nexus Crystal",
 		},
 		["i:113262"] = {
 			["name"] = "Sorcerous Water",
@@ -6151,8 +6206,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:10998"] = {
 			["name"] = "Lesser Astral Essence",
 		},
-		["i:133591"] = {
-			["name"] = "River Onion",
+		["i:124102"] = {
+			["name"] = "Dreamleaf",
 		},
 		["i:21884"] = {
 			["name"] = "Primal Fire",
@@ -6181,6 +6236,9 @@ TradeSkillMaster_CraftingDB = {
 		["i:136637"] = {
 			["name"] = "Oversized Blasting Cap",
 		},
+		["i:33470"] = {
+			["name"] = "Frostweave Cloth",
+		},
 		["i:124441"] = {
 			["name"] = "Leylight Shard",
 		},
@@ -6199,20 +6257,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:34056"] = {
 			["name"] = "Lesser Cosmic Essence",
 		},
-		["i:124118"] = {
-			["name"] = "Fatty Bearsteak",
+		["i:4236"] = {
+			["name"] = "Cured Heavy Hide",
 		},
 		["i:3371"] = {
 			["name"] = "Crystal Vial",
 		},
-		["i:4289"] = {
-			["name"] = "Salt",
+		["i:2318"] = {
+			["name"] = "Light Leather",
 		},
 		["i:2770"] = {
 			["name"] = "Copper Ore",
 		},
-		["i:3182"] = {
-			["name"] = "Spider's Silk",
+		["i:3389"] = {
+			["name"] = "Elixir of Defense",
 		},
 		["i:12808"] = {
 			["name"] = "Essence of Undeath",
@@ -6268,11 +6326,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:124108"] = {
 			["name"] = "Mossgill Perch",
 		},
-		["i:769"] = {
-			["name"] = "Chunk of Boar Meat",
+		["i:52722"] = {
+			["name"] = "Maelstrom Crystal",
 		},
 		["i:109144"] = {
 			["name"] = "Blackwater Whiptail Flesh",
+		},
+		["i:23447"] = {
+			["name"] = "Eternium Bar",
+		},
+		["i:109142"] = {
+			["name"] = "Sea Scorpion Segment",
 		},
 		["i:2589"] = {
 			["name"] = "Linen Cloth",
@@ -6286,29 +6350,32 @@ TradeSkillMaster_CraftingDB = {
 		["i:136633"] = {
 			["name"] = "Loose Trigger",
 		},
+		["i:4305"] = {
+			["name"] = "Bolt of Silk Cloth",
+		},
 		["i:58094"] = {
 			["name"] = "Elixir of Impossible Accuracy",
 		},
 		["i:2775"] = {
 			["name"] = "Silver Ore",
 		},
-		["i:124106"] = {
-			["name"] = "Felwort",
+		["i:23424"] = {
+			["name"] = "Fel Iron Ore",
 		},
-		["i:109142"] = {
-			["name"] = "Sea Scorpion Segment",
+		["i:34054"] = {
+			["name"] = "Infinite Dust",
 		},
-		["i:4305"] = {
-			["name"] = "Bolt of Silk Cloth",
+		["i:16203"] = {
+			["name"] = "Greater Eternal Essence",
 		},
-		["i:9312"] = {
-			["name"] = "Blue Firework",
+		["i:2835"] = {
+			["name"] = "Rough Stone",
 		},
 		["i:113264"] = {
 			["name"] = "Sorcerous Air",
 		},
-		["i:34054"] = {
-			["name"] = "Infinite Dust",
+		["i:124118"] = {
+			["name"] = "Fatty Bearsteak",
 		},
 		["i:136636"] = {
 			["name"] = "Sniping Scope",
@@ -6316,20 +6383,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:133567"] = {
 			["name"] = "Barracuda Mrglgagh",
 		},
-		["i:74249"] = {
-			["name"] = "Spirit Dust",
-		},
-		["i:3389"] = {
-			["name"] = "Elixir of Defense",
-		},
-		["i:4234"] = {
-			["name"] = "Heavy Leather",
-		},
 		["i:7080"] = {
 			["name"] = "Essence of Water",
 		},
 		["i:129100"] = {
 			["name"] = "Gem Chip",
+		},
+		["i:133591"] = {
+			["name"] = "River Onion",
+		},
+		["i:4234"] = {
+			["name"] = "Heavy Leather",
+		},
+		["i:74247"] = {
+			["name"] = "Ethereal Shard",
 		},
 		["i:22451"] = {
 			["name"] = "Primal Air",
@@ -6337,8 +6404,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:39354"] = {
 			["name"] = "Light Parchment",
 		},
-		["i:16203"] = {
-			["name"] = "Greater Eternal Essence",
+		["i:4340"] = {
+			["name"] = "Gray Dye",
 		},
 		["i:4461"] = {
 			["name"] = "Raptor Hide",
@@ -6346,8 +6413,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:124107"] = {
 			["name"] = "Cursed Queenfish",
 		},
-		["i:11083"] = {
-			["name"] = "Soul Dust",
+		["i:76139"] = {
+			["name"] = "Wild Jade",
 		},
 		["i:74248"] = {
 			["name"] = "Sha Crystal",
@@ -6355,8 +6422,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:52719"] = {
 			["name"] = "Greater Celestial Essence",
 		},
-		["i:74247"] = {
-			["name"] = "Ethereal Shard",
+		["i:3576"] = {
+			["name"] = "Tin Bar",
 		},
 		["i:8170"] = {
 			["name"] = "Rugged Leather",
@@ -6364,32 +6431,32 @@ TradeSkillMaster_CraftingDB = {
 		["i:74250"] = {
 			["name"] = "Mysterious Essence",
 		},
-		["i:4340"] = {
-			["name"] = "Gray Dye",
+		["i:124438"] = {
+			["name"] = "Unbroken Claw",
 		},
-		["i:124109"] = {
-			["name"] = "Highmountain Salmon",
+		["i:132523"] = {
+			["name"] = "Reaves Battery",
 		},
 		["i:133565"] = {
 			["name"] = "Leybeque Ribs",
 		},
-		["i:3390"] = {
-			["name"] = "Elixir of Lesser Agility",
+		["i:23427"] = {
+			["name"] = "Eternium Ore",
 		},
 		["i:109141"] = {
 			["name"] = "Fire Ammonite Tentacle",
 		},
-		["i:3576"] = {
-			["name"] = "Tin Bar",
-		},
 		["i:133566"] = {
 			["name"] = "Suramar Surf and Turf",
 		},
-		["i:23427"] = {
-			["name"] = "Eternium Ore",
+		["i:124109"] = {
+			["name"] = "Highmountain Salmon",
 		},
 		["i:110609"] = {
 			["name"] = "Raw Beast Hide",
+		},
+		["i:133589"] = {
+			["name"] = "Dalapeño Pepper",
 		},
 		["i:11291"] = {
 			["name"] = "Star Wood",
@@ -6406,20 +6473,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:22448"] = {
 			["name"] = "Small Prismatic Shard",
 		},
-		["i:124115"] = {
-			["name"] = "Stormscale",
+		["i:124116"] = {
+			["name"] = "Felhide",
 		},
 		["i:4243"] = {
 			["name"] = "Fine Leather Tunic",
 		},
-		["i:124124"] = {
-			["name"] = "Blood of Sargeras",
+		["i:120945"] = {
+			["name"] = "Primal Spirit",
 		},
 		["i:136632"] = {
 			["name"] = "Chaos Blaster",
-		},
-		["i:120945"] = {
-			["name"] = "Primal Spirit",
 		},
 		["i:4232"] = {
 			["name"] = "Medium Hide",
@@ -6427,17 +6491,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:109126"] = {
 			["name"] = "Gorgrond Flytrap",
 		},
+		["i:124115"] = {
+			["name"] = "Stormscale",
+		},
 		["i:23445"] = {
 			["name"] = "Fel Iron Bar",
 		},
-		["i:3858"] = {
-			["name"] = "Mithril Ore",
+		["i:124103"] = {
+			["name"] = "Foxflower",
 		},
-		["i:23571"] = {
-			["name"] = "Primal Might",
+		["i:124461"] = {
+			["name"] = "Demonsteel Bar",
 		},
-		["i:37705"] = {
-			["name"] = "Crystallized Water",
+		["i:9318"] = {
+			["name"] = "Red Firework",
 		},
 		["i:113261"] = {
 			["name"] = "Sorcerous Fire",
@@ -6454,8 +6521,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:11176"] = {
 			["name"] = "Dream Dust",
 		},
-		["i:9318"] = {
-			["name"] = "Red Firework",
+		["i:37705"] = {
+			["name"] = "Crystallized Water",
 		},
 		["i:36909"] = {
 			["name"] = "Cobalt Ore",
@@ -6463,14 +6530,14 @@ TradeSkillMaster_CraftingDB = {
 		["i:11082"] = {
 			["name"] = "Greater Astral Essence",
 		},
-		["i:11138"] = {
-			["name"] = "Small Glowing Shard",
+		["i:10940"] = {
+			["name"] = "Strange Dust",
 		},
 		["i:22457"] = {
 			["name"] = "Primal Mana",
 		},
-		["i:10940"] = {
-			["name"] = "Strange Dust",
+		["i:11138"] = {
+			["name"] = "Small Glowing Shard",
 		},
 		["i:11137"] = {
 			["name"] = "Vision Dust",
@@ -6487,8 +6554,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:5498"] = {
 			["name"] = "Small Lustrous Pearl",
 		},
-		["i:72988"] = {
-			["name"] = "Windwool Cloth",
+		["i:109693"] = {
+			["name"] = "Draenic Dust",
 		},
 		["i:3575"] = {
 			["name"] = "Iron Bar",
@@ -6508,23 +6575,23 @@ TradeSkillMaster_CraftingDB = {
 		["i:2772"] = {
 			["name"] = "Iron Ore",
 		},
-		["i:109693"] = {
-			["name"] = "Draenic Dust",
+		["i:72988"] = {
+			["name"] = "Windwool Cloth",
 		},
-		["i:76141"] = {
-			["name"] = "Imperial Amethyst",
+		["i:124119"] = {
+			["name"] = "Big Gamy Ribs",
 		},
-		["i:22446"] = {
-			["name"] = "Greater Planar Essence",
+		["i:11139"] = {
+			["name"] = "Large Glowing Shard",
 		},
 		["i:13446"] = {
 			["name"] = "Major Healing Potion",
 		},
-		["i:34057"] = {
-			["name"] = "Abyss Crystal",
+		["i:4235"] = {
+			["name"] = "Heavy Hide",
 		},
-		["i:124119"] = {
-			["name"] = "Big Gamy Ribs",
+		["i:22446"] = {
+			["name"] = "Greater Planar Essence",
 		},
 		["i:111245"] = {
 			["name"] = "Luminous Shard",
@@ -6532,8 +6599,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:36918"] = {
 			["name"] = "Scarlet Ruby",
 		},
-		["i:11139"] = {
-			["name"] = "Large Glowing Shard",
+		["i:34057"] = {
+			["name"] = "Abyss Crystal",
 		},
 		["i:52328"] = {
 			["name"] = "Volatile Air",
@@ -6544,8 +6611,8 @@ TradeSkillMaster_CraftingDB = {
 		["i:10978"] = {
 			["name"] = "Small Glimmering Shard",
 		},
-		["i:4235"] = {
-			["name"] = "Heavy Hide",
+		["i:35622"] = {
+			["name"] = "Eternal Water",
 		},
 		["i:10939"] = {
 			["name"] = "Greater Magic Essence",
@@ -6553,17 +6620,17 @@ TradeSkillMaster_CraftingDB = {
 		["i:35623"] = {
 			["name"] = "Eternal Air",
 		},
-		["i:35622"] = {
-			["name"] = "Eternal Water",
+		["i:124121"] = {
+			["name"] = "Wildfowl Egg",
 		},
-		["i:6889"] = {
-			["name"] = "Small Egg",
+		["i:76141"] = {
+			["name"] = "Imperial Amethyst",
 		},
 		["i:133590"] = {
 			["name"] = "Muskenbutter",
 		},
-		["i:124121"] = {
-			["name"] = "Wildfowl Egg",
+		["i:6889"] = {
+			["name"] = "Small Egg",
 		},
 		["i:11084"] = {
 			["name"] = "Large Glimmering Shard",
@@ -6574,11 +6641,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:124101"] = {
 			["name"] = "Aethril",
 		},
-		["i:23424"] = {
-			["name"] = "Fel Iron Ore",
+		["i:23571"] = {
+			["name"] = "Primal Might",
 		},
-		["i:5637"] = {
-			["name"] = "Large Fang",
+		["i:9312"] = {
+			["name"] = "Blue Firework",
 		},
 		["i:7067"] = {
 			["name"] = "Elemental Earth",
@@ -6589,20 +6656,20 @@ TradeSkillMaster_CraftingDB = {
 		["i:22456"] = {
 			["name"] = "Primal Shadow",
 		},
-		["i:124112"] = {
-			["name"] = "Black Barracuda",
+		["i:22452"] = {
+			["name"] = "Primal Earth",
 		},
-		["i:11177"] = {
-			["name"] = "Small Radiant Shard",
+		["i:3858"] = {
+			["name"] = "Mithril Ore",
 		},
-		["i:2318"] = {
-			["name"] = "Light Leather",
+		["i:4246"] = {
+			["name"] = "Fine Leather Belt",
 		},
 		["i:118472"] = {
 			["name"] = "Savage Blood",
 		},
-		["i:20725"] = {
-			["name"] = "Nexus Crystal",
+		["i:5637"] = {
+			["name"] = "Large Fang",
 		},
 		["i:23425"] = {
 			["name"] = "Adamantite Ore",
@@ -6610,38 +6677,38 @@ TradeSkillMaster_CraftingDB = {
 		["i:52327"] = {
 			["name"] = "Volatile Earth",
 		},
-		["i:124102"] = {
-			["name"] = "Dreamleaf",
-		},
-		["i:23447"] = {
-			["name"] = "Eternium Bar",
+		["i:124124"] = {
+			["name"] = "Blood of Sargeras",
 		},
 		["i:133593"] = {
 			["name"] = "Royal Olive",
 		},
-		["i:4246"] = {
-			["name"] = "Fine Leather Belt",
+		["i:124444"] = {
+			["name"] = "Infernal Brimstone",
+		},
+		["i:3182"] = {
+			["name"] = "Spider's Silk",
 		},
 		["i:34055"] = {
 			["name"] = "Greater Cosmic Essence",
 		},
-		["i:124103"] = {
-			["name"] = "Foxflower",
+		["i:11177"] = {
+			["name"] = "Small Radiant Shard",
 		},
 		["i:124439"] = {
 			["name"] = "Unbroken Tooth",
 		},
-		["i:2835"] = {
-			["name"] = "Rough Stone",
+		["i:4289"] = {
+			["name"] = "Salt",
 		},
-		["i:76139"] = {
-			["name"] = "Wild Jade",
+		["i:74249"] = {
+			["name"] = "Spirit Dust",
 		},
 		["i:11175"] = {
 			["name"] = "Greater Nether Essence",
 		},
-		["i:4236"] = {
-			["name"] = "Cured Heavy Hide",
+		["i:11083"] = {
+			["name"] = "Soul Dust",
 		},
 		["i:2840"] = {
 			["name"] = "Copper Bar",
@@ -6649,84 +6716,11 @@ TradeSkillMaster_CraftingDB = {
 		["i:35624"] = {
 			["name"] = "Eternal Earth",
 		},
-		["i:52722"] = {
-			["name"] = "Maelstrom Crystal",
+		["i:769"] = {
+			["name"] = "Chunk of Boar Meat",
 		},
 	},
 	["f@Alliance - Aerie Peak@playerProfessions"] = {
-		["Thedrin"] = {
-			["Tailoring"] = {
-				["maxLevel"] = 800,
-				["link"] = "|cffffd000|Htrade:Player-1081-05E22703:195126:197|h[Tailoring]|h|r",
-				["isSecondary"] = false,
-				["level"] = 705,
-				["prompted"] = true,
-			},
-			["Cooking"] = {
-				["isSecondary"] = true,
-				["level"] = 700,
-				["maxLevel"] = 700,
-			},
-			["First Aid"] = {
-				["isSecondary"] = true,
-				["level"] = 700,
-				["maxLevel"] = 700,
-			},
-			["Enchanting"] = {
-				["maxLevel"] = 800,
-				["link"] = "|cffffd000|Htrade:Player-1081-05E22703:195096:333|h[Enchanting]|h|r",
-				["isSecondary"] = false,
-				["level"] = 705,
-				["prompted"] = true,
-			},
-		},
-		["Minidrin"] = {
-			["Cooking"] = {
-				["isSecondary"] = true,
-				["level"] = 1,
-				["maxLevel"] = 75,
-			},
-			["First Aid"] = {
-				["isSecondary"] = true,
-				["level"] = 700,
-				["maxLevel"] = 700,
-			},
-			["Engineering"] = {
-				["prompted"] = true,
-				["link"] = "|cffffd000|Htrade:Player-1081-06D8C39B:4036:202|h[Engineering]|h|r",
-				["isSecondary"] = false,
-				["level"] = 10,
-				["maxLevel"] = 75,
-			},
-		},
-		["Demonpunter"] = {
-			["Herbalism"] = {
-				["isSecondary"] = false,
-				["level"] = 379,
-				["prompted"] = true,
-				["maxLevel"] = 800,
-			},
-			["Mining"] = {
-				["isSecondary"] = false,
-				["level"] = 370,
-				["prompted"] = true,
-				["maxLevel"] = 800,
-			},
-			["First Aid"] = {
-				["prompted"] = true,
-				["link"] = "|cffffd000|Htrade:Player-1081-07996141:195113:129|h[First Aid]|h|r",
-				["isSecondary"] = true,
-				["level"] = 12,
-				["maxLevel"] = 800,
-			},
-			["Cooking"] = {
-				["prompted"] = true,
-				["link"] = "|cffffd000|Htrade:Player-1081-07996141:158765:185|h[Cooking]|h|r",
-				["isSecondary"] = true,
-				["level"] = 1,
-				["maxLevel"] = 700,
-			},
-		},
 		["Redsauce"] = {
 			["Cooking"] = {
 				["isSecondary"] = true,
@@ -6751,8 +6745,81 @@ TradeSkillMaster_CraftingDB = {
 				["maxLevel"] = 800,
 			},
 		},
+		["Minidrin"] = {
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 75,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 729,
+				["maxLevel"] = 800,
+				["link"] = "|cffffd000|Htrade:Player-1081-06D8C39B:195113:129|h[First Aid]|h|r",
+			},
+			["Engineering"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1081-06D8C39B:4036:202|h[Engineering]|h|r",
+				["isSecondary"] = false,
+				["level"] = 10,
+				["maxLevel"] = 75,
+			},
+		},
+		["Demonpunter"] = {
+			["Herbalism"] = {
+				["prompted"] = true,
+				["isSecondary"] = false,
+				["level"] = 379,
+				["maxLevel"] = 800,
+			},
+			["Mining"] = {
+				["prompted"] = true,
+				["isSecondary"] = false,
+				["level"] = 370,
+				["maxLevel"] = 800,
+			},
+			["First Aid"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1081-07996141:195113:129|h[First Aid]|h|r",
+				["isSecondary"] = true,
+				["level"] = 12,
+				["maxLevel"] = 800,
+			},
+			["Cooking"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1081-07996141:158765:185|h[Cooking]|h|r",
+				["isSecondary"] = true,
+				["level"] = 1,
+				["maxLevel"] = 700,
+			},
+		},
+		["Thedrin"] = {
+			["Tailoring"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1081-05E22703:195126:197|h[Tailoring]|h|r",
+				["isSecondary"] = false,
+				["level"] = 705,
+				["maxLevel"] = 800,
+			},
+			["Cooking"] = {
+				["isSecondary"] = true,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+			["First Aid"] = {
+				["isSecondary"] = true,
+				["level"] = 700,
+				["maxLevel"] = 700,
+			},
+			["Enchanting"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-1081-05E22703:195096:333|h[Enchanting]|h|r",
+				["isSecondary"] = false,
+				["level"] = 705,
+				["maxLevel"] = 800,
+			},
+		},
 	},
 	["_version"] = 7,
-	["g@ @ignoreGuilds"] = {
-	},
+	["g@ @profitPercent"] = 0,
 }
